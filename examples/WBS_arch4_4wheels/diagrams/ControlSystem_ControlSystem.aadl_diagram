@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="64fd6e2f-67eb-453f-bee4-55f792303b1f" manual="true">
+    <element uuid="14c5f592-5910-4e7f-a9a0-77cb43b5a455" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_1_3</seg>
+      </bo>
+      <position y="510.0"/>
+    </element>
+    <element uuid="7d5d62fa-8209-4659-9a87-097b99c61700" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_2_4</seg>
+      </bo>
+      <position y="560.0"/>
+    </element>
+    <element uuid="78905f07-3f70-422c-b4c0-b30e3bf8f508" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_1</seg>
+      </bo>
+      <position y="710.0"/>
+    </element>
+    <element uuid="4c208be4-85db-47bf-aec1-ef61b562463b" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_2</seg>
+      </bo>
+      <position y="660.0"/>
+    </element>
+    <element uuid="05e27596-1a65-4f58-beed-fe2cf04bd368" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_3</seg>
+      </bo>
+      <position y="610.0"/>
+    </element>
+    <element uuid="a4524e3c-20a2-479e-b0a3-8fab5def20b5" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_4</seg>
+      </bo>
+      <position y="760.0"/>
+    </element>
+    <element uuid="87643aeb-2ae3-4ede-b568-dc26a8cdb8f7" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>elec_pedal_pos_l</seg>
+      </bo>
+      <position y="460.0"/>
+    </element>
+    <element uuid="a8dc8669-6327-4078-96c4-b001ce918026" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>elec_pedal_pos_r</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <element uuid="9e72092d-88f4-49fd-b600-995e9c11c395" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ground_speed</seg>
+      </bo>
+      <position y="110.0"/>
+    </element>
+    <element uuid="06c10f6e-f8cb-4768-b61a-22c56d5d62d9" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power_1</seg>
+      </bo>
+      <position y="160.0"/>
+    </element>
+    <element uuid="2b0af431-ca3f-4613-983b-db5b2a31be9e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power_2</seg>
+      </bo>
+      <position y="260.0"/>
+    </element>
+    <element uuid="379fb5fa-6737-444a-8efa-20b6ad1cee03" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>system_validity</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <element uuid="7784675a-e0ea-4d81-bf43-f0e28de9b7f5" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_1</seg>
+      </bo>
+      <position y="310.0"/>
+    </element>
+    <element uuid="7b95516c-a331-4145-979e-0b16568ef6dd" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_2</seg>
+      </bo>
+      <position y="360.0"/>
+    </element>
+    <element uuid="fe25b728-d4a1-4d4d-975a-7d7dfc6d970b" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_3</seg>
+      </bo>
+      <position y="410.0"/>
+    </element>
+    <element uuid="0c47c0e1-d004-4872-9c5d-de9eb11efc98" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_4</seg>
+      </bo>
+      <position y="210.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>controlsystem</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="420.0" height="810.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>controlsystem::controlsystem</seg>
+    </context>
+  </config>
+</diagram:Diagram>

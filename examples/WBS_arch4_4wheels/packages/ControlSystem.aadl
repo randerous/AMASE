@@ -53,7 +53,7 @@ with Base_Types;
 				property BRAKE_AS_COMMANDED_13 = brake_as_cmd_1 and brake_as_cmd_3;
 				property BRAKE_AS_COMMANDED_24 = brake_as_cmd_2 and brake_as_cmd_4;				
 						
-				guarantee "(ctrl system) 1 Expected antiskid behavior pair 1,5: Valid system and ground speed and either wheel is not rolling
+				guarantee "(ctrl system) 1 Expected antiskid behavior pair 1,3: Valid system and ground speed and either wheel is not rolling
 						  if and only if antiskid is commanded to the pair." :
 						  true -> ((as_cmd_pair_1_3 = (power and SPEED and PAIR_NOT_ROLLING_13)) or (as_cmd_pair_1_3 = false));
 						  

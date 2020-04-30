@@ -1,0 +1,19 @@
+package sub2
+public
+with Base_Types;
+
+	system sub2
+		features
+			i : in data port Base_Types::Boolean;
+			o : out data port Base_Types::Boolean;
+			
+		
+		annex agree {**
+				assume "a" : i = true;
+			guarantee "sa" :
+			i=o;
+		**};
+	
+	end sub2;
+end sub2;
+

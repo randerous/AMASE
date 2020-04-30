@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="db62bbf3-eb47-45e7-a3b9-939127597c5d" manual="true">
+    <element uuid="b45875e2-5a38-468a-99ab-9fa1f6d79585" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>reactor_ctrl</seg>
+      </bo>
+      <position x="368.0" y="98.0"/>
+      <size width="138.0" height="35.0"/>
+    </element>
+    <element uuid="28d72e67-b476-4126-b62e-c779cc7d7894" manual="true">
+      <element uuid="ccc0b3bd-d305-491f-982a-6621c09397c8" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="340.0" y="123.0"/>
+          <point x="346.0" y="123.0"/>
+          <point x="346.0" y="79.0"/>
+          <point x="352.0" y="79.0"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>reactor_ctrl.no_voting</seg>
+      </bo>
+      <position x="68.0" y="178.0"/>
+      <size width="214.0" height="35.0"/>
+    </element>
+    <element uuid="7e1f0635-77a0-42c7-bbba-b0207a9fe8af" manual="true">
+      <element uuid="d8fd1278-1f6b-4e3d-9eca-73ea579298ac" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="340.0" y="68.0"/>
+          <point x="352.0" y="68.0"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>reactor_ctrl.w_voting</seg>
+      </bo>
+      <position x="70.0" y="58.0"/>
+      <size width="209.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>reactor_sys</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="759.0" height="339.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>reactor_sys</seg>
+    </context>
+  </config>
+</diagram:Diagram>

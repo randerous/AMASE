@@ -1,0 +1,269 @@
+package cito
+public
+	with Base_Types;
+	renames Base_Types::all;
+	
+	system uplink_system
+	
+		features
+			up : in  data port integer ;
+			outCmds: out  data port integer;
+		flows
+			f1 : flow path up -> outCmds;
+		annex agree{**
+			Assume "nothing": true;
+			Guarantee "input = output": outCmds = up;		
+		**};
+	end uplink_system;
+	
+	system downlink_system
+		features
+			outTlm: in data port integer;
+			down: out data port integer;
+		flows
+			f2 : flow path outTlm -> down;
+		annex agree{**
+			Assume "nothing": true;
+			Guarantee "input = output": down= outTlm;
+			**};
+	end downlink_system;
+	
+	
+	-- ci_main_task
+	thread ci_main_task
+		features
+			cmds: in data port integer ;
+			out_res: out data port integer;
+		flows
+			fcm: flow path cmds -> out_res;
+		annex agree{**
+			eq CI_APP_CMD : int = 4;
+			eq TO_APP_CMD : int = 68;
+			Assume "cmd is CI_APP_CMD": cmds = CI_APP_CMD;
+			Guarantee "deliver TO_APP_CMD to software_bus": out_res = TO_APP_CMD;
+			
+		**};
+	end ci_main_task;
+	
+	thread implementation ci_main_task.impl
+		
+	end ci_main_task.impl;
+	
+	
+	subprogram CI_CustomGateCmds
+		features
+			sbMsg: in parameter ;
+	end CI_CustomGateCmds;
+	
+	subprogram implementation CI_CustomGateCmds.impl	
+	end CI_CustomGateCmds.impl;
+	
+	
+	thread ci_child_task
+		features
+			uplink_command: in data port integer;
+			non_gate_cmds: out data port integer;
+		flows
+			f3 : flow path uplink_command -> non_gate_cmds;
+		annex agree{**
+			eq Gate_cmd: int = 9;
+			Assume "nothing": true;
+			Guarantee "output non_gate_cmd": 	(uplink_command <> Gate_cmd) => non_gate_cmds=uplink_command;		
+		**};
+	end ci_child_task;
+	
+	thread implementation ci_child_task.impl
+		calls
+			call_CI_CustomGateCmds: {
+				CI_CustomGateCmds: subprogram CI_CustomGateCmds.impl;
+			};
+		connections
+			conn1: parameter uplink_command -> CI_CustomGateCmds.sbMsg;
+	end ci_child_task.impl;	
+	
+	thread to_task
+		features
+			tlm: in data port integer;
+			--HK: out event data port;
+			--outData: out data port;
+			downlink_telemetry: out data port integer;
+		flows
+			f4 : flow path tlm -> downlink_telemetry;
+		annex agree{**
+			Assume "nothing" :true;
+			Guarantee "output tlm msg": downlink_telemetry = tlm;			
+		**};
+		annex safety {**
+			fault TO_Task_failed "TO_Task_failed to zero": Common_Faults.fail_to_zero {
+				inputs: val_in <- tlm;     
+				outputs: downlink_telemetry <- val_out;   
+         		probability: 1.0E-5 ;
+				duration: permanent;
+			}
+		**};
+	end to_task;
+	
+	thread implementation to_task.impl
+		
+	end to_task.impl;
+
+
+	subprogram io_lib_formats
+		
+	end io_lib_formats;
+	
+	subprogram implementation io_lib_formats.impl
+		
+	end io_lib_formats.impl;
+	
+	subprogram io_lib_service
+		
+	end io_lib_service;
+	
+	subprogram implementation io_lib_service.impl
+		calls
+			call_seq: {
+				io_lib_formats: subprogram io_lib_formats.impl;
+			};
+	end io_lib_service.impl;
+	
+	
+	subprogram c3i_formats
+		
+	end c3i_formats;
+
+	subprogram implementation c3i_formats.impl
+			
+	end c3i_formats.impl;
+	
+	subprogram c3i_service
+		
+	end c3i_service;
+	
+	subprogram implementation c3i_service.impl
+		calls
+			call_seq: {
+				c3i_formats: subprogram c3i_formats.impl;
+			};
+	end c3i_service.impl;
+	
+	subprogram group io_lib
+		features
+			io_lib_service_acc: provides subprogram access io_lib_service.impl;
+			c3i_service_acc: provides subprogram access c3i_service.impl;
+	end io_lib;
+	
+	subprogram group implementation io_lib.impl
+		subcomponents
+			io_lib_service: subprogram io_lib_service.impl;
+			io_lib_formats: subprogram io_lib_formats.impl;
+			c3i_service: subprogram c3i_service.impl;
+			c3i_formats: subprogram c3i_formats.impl;
+	end io_lib.impl;
+	
+
+	thread software_bus
+		features
+			in_cmds: in data port integer;
+			out_cmds: out data port integer;
+			
+			in_app_cmd : in data port integer;
+			out_app_cmd : out data port integer;
+			
+			in_tlm : in data port integer;
+			out_tlm: out data port integer;
+		flows
+			f5 : flow path in_cmds -> out_cmds;
+			f55 : flow path in_app_cmd -> out_app_cmd;
+			f6 : flow path in_tlm -> out_tlm;
+		
+		annex agree{**
+			Assume "nothing" :true;
+			Guarantee "cmd data is consistent" : out_cmds = in_cmds;
+			Guarantee "app cmd data is consistent": out_app_cmd = in_app_cmd;	
+			Guarantee "tlm data is consistent": out_tlm = in_tlm;			
+		**};
+			
+	end software_bus;
+	
+	thread implementation software_bus.impl
+	end software_bus.impl;
+	
+	thread app
+		features
+			in_cmds : in data port integer;
+			out_tlm: out data port integer;
+		flows
+			f7 : flow path in_cmds -> out_tlm;
+		annex agree{**
+			eq TO_APP_CMD : int = 68;
+			eq TO_MSG : int = 80;
+			assume "cmd is TO_APP_CMD": in_cmds=TO_APP_CMD;
+			guarantee "give TO_MSG": out_tlm= TO_MSG;
+		**};
+	end app;
+	
+	abstract  csci_system
+		features
+			up_packet : in data port integer;
+			down_packet : out data port integer;
+		flows
+			f : flow path up_packet -> down_packet;
+		annex agree{**
+			eq CI_APP_CMD : int = 4;
+			eq TO_MSG : int = 80; 
+			Assume "cmd is CI_APP_CMD": up_packet= CI_APP_CMD;
+			Guarantee "Output is TO_MSG": down_packet= TO_MSG;
+		**}; 
+		
+
+	end csci_system;
+	
+	
+	thread implementation app.impl
+	end app.impl;
+	
+	abstract implementation csci_system.impl
+		subcomponents
+			ci_main_task: thread ci_main_task.impl;
+			ci_child_task: thread ci_child_task.impl;
+			to_task: thread to_task.impl;
+			io_lib: subprogram group io_lib.impl;
+			software_bus: thread software_bus.impl;
+			app : thread app.impl;
+			uplink_system: system uplink_system;
+			downlink_system: system downlink_system;
+		connections
+			sys_upsys: port up_packet -> uplink_system.up;
+			
+			up_cic : port uplink_system.outCmds -> ci_child_task.uplink_command;
+			-- cim_sb_HK: port ci_main_task.HK -> software_bus.in_HK;
+			cic_sb_cmds: port ci_child_task.non_gate_cmds -> software_bus.in_cmds;
+			
+			sb_cim_cmds: port software_bus.out_cmds -> ci_main_task.cmds;
+			
+			
+			cim_sb_out_res : port ci_main_task.out_res -> software_bus.in_app_cmd;
+			
+			sb_app : port software_bus.out_app_cmd -> app.in_cmds;
+			
+			app_out_sb : port app.out_tlm -> software_bus.in_tlm;
+			
+			sb_to_tlm : port software_bus.out_tlm -> to_task.tlm;
+			
+			to_down : port to_task.downlink_telemetry -> downlink_system.outTlm;
+			
+			downsys_sys: port downlink_system.down -> down_packet;
+
+		flows
+			f : flow path up_packet -> sys_upsys -> uplink_system.f1 -> up_cic 
+			-> ci_child_task.f3 -> cic_sb_cmds -> software_bus.f5 -> sb_cim_cmds 
+			-> ci_main_task.fcm -> cim_sb_out_res -> software_bus.f55 -> sb_app -> app.f7 -> app_out_sb 
+			-> software_bus.f6 -> sb_to_tlm -> to_task.f4 -> to_down -> downlink_system.f2 -> downsys_sys -> down_packet;
+			
+		annex safety{**
+		  analyze: max 2 fault
+		**};
+	end csci_system.impl;
+	
+end cito;

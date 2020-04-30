@@ -1,0 +1,35 @@
+package son
+public
+with Base_Types;
+
+	system son
+		features
+			ii : in data port Base_Types::Boolean;
+			oo : out data port Base_Types::Boolean;
+			oo2 : out data port Base_Types::Boolean;
+		
+		annex agree {**
+			guarantee "sa" :
+			oo2 = ii and oo = ii;
+		**};
+		
+		annex safety {**
+		fault a "a" : Common_Faults.stuck_false {
+				inputs: val_in <- true ; 
+				outputs: oo <- val_out;    
+        		probability: 1.0E-5 ;
+				duration: permanent;
+			}
+			
+		fault b "b" : Common_Faults.stuck_false {
+				inputs: val_in <- true ; 
+				outputs: oo2 <- val_out;    
+        		probability: 1.0E-5 ;
+				duration: permanent;
+			}
+		
+	    **};
+	
+	end son;
+end son;
+

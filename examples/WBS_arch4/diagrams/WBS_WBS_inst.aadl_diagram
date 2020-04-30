@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="c08a23b1-d290-4fd6-9685-9c25017d16e3" manual="true">
+    <element uuid="3942572d-4bce-4c59-b228-38122349c06d" manual="true">
+      <element uuid="308d6f65-6b7f-4f08-bd03-97c45c1374dd" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>accum_pressure_display_in</seg>
+      </bo>
+      <bendpoints>
+        <point x="1980.0" y="1066.9473684210525"/>
+        <point x="1980.0" y="1251.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="5aa26d6e-4c56-4367-84a8-7676312a0db0" manual="true">
+      <element uuid="f5c207b0-3dc6-48c8-bf11-3d111be74ef0" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>antiskid_pair1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1245.0" y="585.0"/>
+        <point x="1245.0" y="788.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="5afa5b22-0f5b-4fda-9fc2-a33ca98f4793" manual="true">
+      <element uuid="1d4bbf0b-8af0-4edd-b50b-6a20af2add9f" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>antiskid_pair2</seg>
+      </bo>
+      <bendpoints>
+        <point x="1255.0" y="535.0"/>
+        <point x="1255.0" y="738.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="0dfdc6b3-c08c-4087-87e6-1d5951f2fd78" manual="true">
+      <element uuid="755bf1a6-4fc1-450f-9221-cfa750b59b26" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>antiskid_pair3</seg>
+      </bo>
+      <bendpoints>
+        <point x="1175.0" y="935.0"/>
+        <point x="1175.0" y="1138.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d347d009-1826-4b7c-9f34-452bde7a90a8" manual="true">
+      <element uuid="85dcdd47-ac08-455b-928b-03a74895087d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>antiskid_pair4</seg>
+      </bo>
+      <bendpoints>
+        <point x="1235.0" y="635.0"/>
+        <point x="1235.0" y="838.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="be5a59c6-1995-4381-957a-d966f5344eab" manual="true">
+      <element uuid="73ccd616-7242-4aea-8e5e-77d42304aa7d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1145.0" y="1085.0"/>
+        <point x="1145.0" y="1288.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="ea5dea09-9e51-4faf-9d58-c72e5c5a2564" manual="true">
+      <element uuid="8b7dbe9d-7cbb-449b-9b84-916c85587e5c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="1155.0" y="1035.0"/>
+        <point x="1155.0" y="1238.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="42010b71-687e-4f9f-b635-5e98e1c3d583" manual="true">
+      <element uuid="8c9b9496-5e24-4e41-98cb-04c2aa95e8a2" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="1165.0" y="985.0"/>
+        <point x="1165.0" y="1188.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="ce8b3ccf-c77e-4d81-b18b-145adc9feb3d" manual="true">
+      <element uuid="866fc867-6afa-49af-a936-f4d97e5d1491" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_4</seg>
+      </bo>
+      <bendpoints>
+        <point x="1195.0" y="835.0"/>
+        <point x="1195.0" y="1038.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="ce57f128-0d8e-4856-a6e2-38a5b0017149" manual="true">
+      <element uuid="ec4a8975-9da9-43e3-91cb-896d95edf861" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_5</seg>
+      </bo>
+      <bendpoints>
+        <point x="1205.0" y="785.0"/>
+        <point x="1205.0" y="988.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="4a63a1a9-4729-49c4-aeec-a1104ec94c16" manual="true">
+      <element uuid="05c1b8eb-ae2a-464f-8596-5f8f844cfc29" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_6</seg>
+      </bo>
+      <bendpoints>
+        <point x="1215.0" y="735.0"/>
+        <point x="1215.0" y="938.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="541c782f-f6da-4eae-88aa-697d6e69f0ba" manual="true">
+      <element uuid="173c1297-0469-4ab7-84a0-99528a08cd05" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_7</seg>
+      </bo>
+      <bendpoints>
+        <point x="1225.0" y="685.0"/>
+        <point x="1225.0" y="888.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="1796e173-788e-4431-b6b7-b7a70bf8cd5b" manual="true">
+      <element uuid="c91de98a-8772-4761-8750-e29a7f8bc8eb" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_antiskid_8</seg>
+      </bo>
+      <bendpoints>
+        <point x="1185.0" y="885.0"/>
+        <point x="1185.0" y="1088.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="0c0844c4-75b5-4442-b728-d9e0a13d86f7" manual="true">
+      <element uuid="76890fb5-0cc7-4544-8cf0-2ba4eaee9132" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="2000.0" y="951.1578947368421"/>
+        <point x="2000.0" y="1151.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="063e40fd-a4f7-44a1-be27-b429f46077ee" manual="true">
+      <element uuid="7b08fd5d-7c95-4df3-beeb-62c28f96480b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="1940.0" y="1298.5263157894735"/>
+        <point x="1940.0" y="1451.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="8c6f0e57-956f-4dce-a60c-8285f4a31fc8" manual="true">
+      <element uuid="a2875843-413d-424b-bdf6-11e68e8b903a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="1950.0" y="1240.6315789473683"/>
+        <point x="1950.0" y="1401.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="0d04d308-25d5-4f38-870d-f0db8677eefb" manual="true">
+      <element uuid="adf2d190-62ba-4b36-aea4-ec99f27129b0" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_4</seg>
+      </bo>
+      <bendpoints>
+        <point x="1960.0" y="1182.7368421052631"/>
+        <point x="1960.0" y="1351.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="743d1861-fe9c-4822-8905-d2d478c8757d" manual="true">
+      <element uuid="2faf26ce-26e9-4391-9e70-c279a01357f9" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_5</seg>
+      </bo>
+      <bendpoints>
+        <point x="2010.0" y="893.2631578947369"/>
+        <point x="2010.0" y="1051.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="2b36a59d-51fa-42de-ae70-3073704ee0d9" manual="true">
+      <element uuid="fc93caac-1cf8-4215-aeb0-064f2d38aaee" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_6</seg>
+      </bo>
+      <bendpoints>
+        <point x="1930.0" y="1356.4210526315787"/>
+        <point x="1930.0" y="1501.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="b9a439fc-cf12-482f-815e-296ae190e344" manual="true">
+      <element uuid="c2f05a07-e0ed-496f-a22d-c5354da94030" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_7</seg>
+      </bo>
+      <bendpoints>
+        <point x="2050.0" y="719.578947368421"/>
+        <point x="2050.0" y="820.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="10f3406c-5a63-4274-8757-c916cb55d531" manual="true">
+      <element uuid="cd1fc4fc-493a-46fb-a007-57aff13de517" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_8</seg>
+      </bo>
+      <bendpoints>
+        <point x="1990.0" y="1009.0526315789473"/>
+        <point x="1990.0" y="1201.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="acf54ead-265d-464f-9a12-8e46c5524bdb" manual="true">
+      <element uuid="91c02caa-6ccc-410c-b6bd-92acb6a21d65" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>control_sys_valid</seg>
+      </bo>
+      <bendpoints>
+        <point x="1135.0" y="1135.0"/>
+        <point x="1135.0" y="1863.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="33a98653-c0e1-4f64-aee4-ed8c0d12d5fc" manual="true">
+      <element uuid="dbb493d6-16f8-4cfc-9fb1-5d65ea914740" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>green_pressure_in_display</seg>
+      </bo>
+      <bendpoints>
+        <point x="1970.0" y="1124.842105263158"/>
+        <point x="1970.0" y="1301.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="75734022-8515-45f5-b440-0e1fc7df2a60" manual="true">
+      <element uuid="d61641f8-936c-48c0-a444-69eb4589ffcd" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ground_speed_ctrl</seg>
+      </bo>
+      <bendpoints>
+        <point x="231.0" y="182.0"/>
+        <point x="231.0" y="243.0"/>
+        <point x="681.0" y="243.0"/>
+        <point x="681.0" y="418.33333333333337"/>
+      </bendpoints>
+    </element>
+    <element uuid="8fabe738-05ff-4848-9903-6c487252dc0c" manual="true">
+      <element uuid="bb5b04d8-feea-4697-b0b5-41fc20f5eef9" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ground_speed_phys</seg>
+      </bo>
+      <bendpoints>
+        <point x="1275.0" y="182.0"/>
+        <point x="1275.0" y="638.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="02a71f06-d751-438b-88a8-ed6a3242f0e8" manual="true">
+      <element uuid="71896fb4-5713-46a6-b4d0-c62c8f3352a2" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hyd_supply_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1285.0" y="132.0"/>
+        <point x="1285.0" y="588.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="22f8a823-1bef-4fdf-8b0c-bc81138dfda1" manual="true">
+      <element uuid="9bbb95e2-e4f5-47b0-b6cf-d1c1cab5931a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hyd_supply_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="1305.0" y="82.0"/>
+        <point x="1305.0" y="538.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="30bcb572-a462-4b09-b0c0-8e7fa5cac2fb" manual="true">
+      <element uuid="c2685cb4-d79c-48a7-91e3-d1337df7676e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>mech_pedal_position_l</seg>
+      </bo>
+      <bendpoints>
+        <point x="241.0" y="785.0"/>
+        <point x="241.0" y="1313.0"/>
+        <point x="1115.0" y="1313.0"/>
+        <point x="1115.0" y="1388.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="cba6f66d-b663-47ed-b7f2-46dfdb0f9913" manual="true">
+      <element uuid="c8fe040c-b64c-4b71-88e6-8a170af2bd11" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>mech_pedal_position_r</seg>
+      </bo>
+      <bendpoints>
+        <point x="1265.0" y="232.0"/>
+        <point x="1265.0" y="688.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="c2c49d36-9c03-4d8f-8deb-fff655671074" manual="true">
+      <element uuid="e5815cb8-aaef-4ec4-a4a7-49db3b50ccf4" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pedal_sensor_in_l</seg>
+      </bo>
+    </element>
+    <element uuid="bdd446cb-f70e-4ed3-9b4f-1505b44c0919" manual="true">
+      <element uuid="d6f0e131-5d4e-4e04-a9f8-4ea5d0e815be" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pedal_sensor_in_r</seg>
+      </bo>
+      <bendpoints>
+        <point x="221.0" y="232.0"/>
+        <point x="221.0" y="296.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="e50d0295-c0a5-444f-810c-023847acfc79" manual="true">
+      <element uuid="7e368ccf-76f5-458c-9746-c22345777d1d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pedal_sensor_out_l</seg>
+      </bo>
+    </element>
+    <element uuid="d9af5f84-72cd-4ab1-98b5-6cd506214e5f" manual="true">
+      <element uuid="9ae857b2-9c84-402e-bde3-3d4066e4ea7a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pedal_sensor_out_r</seg>
+      </bo>
+      <bendpoints>
+        <point x="671.0" y="296.0"/>
+        <point x="671.0" y="601.6666666666667"/>
+      </bendpoints>
+    </element>
+    <element uuid="9e269f0c-6231-4ade-beae-92722f5ebfbd" manual="true">
+      <element uuid="ccab1c36-1a6a-4488-b158-3cdec1a2714c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>power_control_1</seg>
+      </bo>
+    </element>
+    <element uuid="e62713c2-806e-4fe6-96d0-c218d89c3c53" manual="true">
+      <element uuid="f5c122d4-67bd-42f4-8084-40669c22046e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>power_control_2</seg>
+      </bo>
+    </element>
+    <element uuid="aadfcb74-d3a4-4106-bf2f-a8a7d64ee18e" manual="true">
+      <element uuid="aa07c93a-31e9-4785-b420-36c3f99de636" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>power_pump_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="231.0" y="968.3333333333334"/>
+        <point x="231.0" y="1324.0"/>
+        <point x="1095.0" y="1324.0"/>
+        <point x="1095.0" y="1438.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="7a3f9e82-c756-4d46-94ea-e700522e0af2" manual="true">
+      <element uuid="151e4400-77cd-4fab-9fd6-49bbb9204dc8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>power_pump_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="221.0" y="1151.6666666666667"/>
+        <point x="221.0" y="1335.0"/>
+        <point x="1085.0" y="1335.0"/>
+        <point x="1085.0" y="1488.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d542a426-f34d-4c31-961b-89a3a6def87b" manual="true">
+      <element uuid="6ff857c9-6a14-431b-8f2c-c338cb4890e8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>sys_valid</seg>
+      </bo>
+      <bendpoints>
+        <point x="1135.0" y="1135.0"/>
+        <point x="1135.0" y="1338.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="2342965c-a39b-4ebf-ab19-3e199114947b" manual="true">
+      <element uuid="eb5001f0-2ea5-4c39-b895-40c3421ec30c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="2090.0" y="603.7894736842105"/>
+        <point x="2090.0" y="689.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="9aaf5af2-43d4-44ba-a8cb-f8978e9f307a" manual="true">
+      <element uuid="c75ff8b5-8414-47a2-80d3-ba0ca24eb095" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="2030.0" y="777.4736842105262"/>
+        <point x="2030.0" y="1001.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="064b9a87-5a3d-4ddd-80f4-6a539a54739f" manual="true">
+      <element uuid="18210661-88a3-41d5-9ce6-528321d90c36" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="2020.0" y="835.3684210526316"/>
+        <point x="2020.0" y="1101.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="8f75b19f-0d88-4934-923d-6bd12215c339" manual="true">
+      <element uuid="d142b1fa-6e23-4d39-a732-d5e7864d82c1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_4</seg>
+      </bo>
+    </element>
+    <element uuid="d8afc1b1-efb2-409e-8a96-dcf0cac7dad1" manual="true">
+      <element uuid="0a55b6ec-313e-42c1-a99b-671f17fdbe08" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_5</seg>
+      </bo>
+      <bendpoints>
+        <point x="1920.0" y="1414.315789473684"/>
+        <point x="1920.0" y="1551.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="9d392a03-0fa3-423f-a405-d1ed09c9e301" manual="true">
+      <element uuid="0d74f19f-6b40-402d-a0d6-5e65c0324392" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_6</seg>
+      </bo>
+      <bendpoints>
+        <point x="1910.0" y="1472.2105263157891"/>
+        <point x="1910.0" y="1601.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="6c8cb740-288c-4d83-843f-639ef0fdacee" manual="true">
+      <element uuid="c2931e4f-b597-45df-b2ba-68b553921a6a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_7</seg>
+      </bo>
+      <bendpoints>
+        <point x="1900.0" y="1530.1052631578943"/>
+        <point x="1900.0" y="1732.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="ea969dc4-62ea-4123-b095-b758250cfc49" manual="true">
+      <element uuid="c48b164e-cbef-4afc-b3eb-7b5fb0e2f686" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_8</seg>
+      </bo>
+      <bendpoints>
+        <point x="2040.0" y="661.6842105263158"/>
+        <point x="2040.0" y="951.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="a43fdb9f-fb5a-4822-99aa-8963b680bbc2" manual="true">
+      <element uuid="c4ee17a0-7cba-4427-8ab2-70a9986697e1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="2090.0" y="603.7894736842105"/>
+        <point x="2090.0" y="465.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="642a5fac-1248-4d0f-887b-521989bc3766" manual="true">
+      <element uuid="b8c80e39-fc1b-4813-b5e1-2afb9c4769be" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="2030.0" y="777.4736842105262"/>
+        <point x="2030.0" y="792.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="785996c2-d9b3-4703-904c-a67120693678" manual="true">
+      <element uuid="33532bd4-967b-406f-b497-0d5531e667b0" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="2020.0" y="835.3684210526316"/>
+        <point x="2020.0" y="923.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="68c06f08-8192-4cfe-8bd8-4bd88ec0ad0d" manual="true">
+      <element uuid="9b5e0026-43f2-4713-a409-464d2b43537a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_4</seg>
+      </bo>
+      <bendpoints>
+        <point x="2080.0" y="545.8947368421052"/>
+        <point x="2080.0" y="335.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="321616a4-5c4f-4baf-a2ef-8d09142952f5" manual="true">
+      <element uuid="4c4acb4e-931a-4b60-98d4-513120fe5934" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_5</seg>
+      </bo>
+      <bendpoints>
+        <point x="1920.0" y="1414.315789473684"/>
+        <point x="1920.0" y="1654.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="e793cd9e-7d1d-4be0-81d4-e66351146b01" manual="true">
+      <element uuid="6076bd60-38e9-4bba-a0be-7bfefcfae2a1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_6</seg>
+      </bo>
+      <bendpoints>
+        <point x="1910.0" y="1472.2105263157891"/>
+        <point x="1910.0" y="1785.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="aed1b806-df70-4837-b220-4fe9a7ee28b6" manual="true">
+      <element uuid="fb387652-624d-4c72-a13c-88f94bcbf785" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_7</seg>
+      </bo>
+      <bendpoints>
+        <point x="1900.0" y="1530.1052631578943"/>
+        <point x="1900.0" y="1916.6842105263158"/>
+      </bendpoints>
+    </element>
+    <element uuid="36111340-5e27-4a39-8ece-d2d3919263c7" manual="true">
+      <element uuid="c7196a5a-7e92-451a-be2d-b14d4a02f320" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_in_8</seg>
+      </bo>
+    </element>
+    <element uuid="2e4ccb3e-bd7b-4b46-b9a8-014151e5c890" manual="true">
+      <element uuid="acb6a032-e24d-4ea5-b33f-e79ce72d6e04" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="1295.0" y="415.0"/>
+        <point x="1295.0" y="335.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="6bc1e165-85bd-485b-b798-56f1ad3c41a7" manual="true">
+      <element uuid="f517a3d9-f6fa-4e79-a311-109f5492227d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="2070.0" y="742.6842105263158"/>
+        <point x="2070.0" y="437.0"/>
+        <point x="1295.0" y="437.0"/>
+        <point x="1295.0" y="435.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="b42628aa-e6ab-4a9f-8ca1-971590bfa981" manual="true">
+      <element uuid="541075b9-6cbf-474f-a3df-88fd884a0fec" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="2060.0" y="873.6842105263158"/>
+        <point x="2060.0" y="485.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="1e4f5863-283c-4374-9931-defd14759430" manual="true">
+      <element uuid="825524a7-31d6-4150-968e-b604fcf28c05" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_4</seg>
+      </bo>
+    </element>
+    <element uuid="d7eb07f3-4242-460a-9395-a847ad88c213" manual="true">
+      <element uuid="259fd276-9313-444e-be86-b79cb1bd8341" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_5</seg>
+      </bo>
+      <bendpoints>
+        <point x="1125.0" y="1704.6842105263158"/>
+        <point x="1125.0" y="1185.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d59925d1-df36-4fec-8f05-e12b3bf10a72" manual="true">
+      <element uuid="08e95c77-519e-43de-ac14-edfc4d7d170d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_6</seg>
+      </bo>
+      <bendpoints>
+        <point x="1105.0" y="1835.6842105263158"/>
+        <point x="1105.0" y="1235.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="a22d1cb3-ee36-478e-8f34-9ca79adb5e4b" manual="true">
+      <element uuid="33c39890-b544-4762-a0fe-494e76a7759e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_7</seg>
+      </bo>
+      <bendpoints>
+        <point x="1075.0" y="1966.6842105263158"/>
+        <point x="1075.0" y="1285.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="fc290bc4-56b7-48ed-82eb-497c10760fb1" manual="true">
+      <element uuid="3d85d363-21d7-4ed2-9df4-dccfcd40a19b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_status_sensor_out_8</seg>
+      </bo>
+      <bendpoints>
+        <point x="2100.0" y="611.6842105263158"/>
+        <point x="2100.0" y="426.0"/>
+        <point x="1075.0" y="426.0"/>
+        <point x="1075.0" y="385.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="19c89b20-e8b5-434d-b82c-343c8e396c8a" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>accum_pressure_display</seg>
+      </bo>
+      <position x="2544.0" y="1208.0"/>
+    </element>
+    <element uuid="bcc739b5-8879-4d95-9d32-193146ab63e8" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>green_pressure_in_selector_valve</seg>
+      </bo>
+      <position x="2474.0" y="1258.0"/>
+    </element>
+    <element uuid="d0046f35-e167-4b55-a318-87e6c3d9bf4f" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ground_speed</seg>
+      </bo>
+      <position y="138.0"/>
+    </element>
+    <element uuid="1342fa8a-06a3-4410-996b-a8d9d042c932" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply1</seg>
+      </bo>
+      <position y="88.0"/>
+    </element>
+    <element uuid="2739613c-e222-4ff4-acb3-ee0886f2a838" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply2</seg>
+      </bo>
+      <position y="38.0"/>
+    </element>
+    <element uuid="f468982f-20b0-4d0f-a41e-5c04c58220a1" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mechanical_pedal_pos_l</seg>
+      </bo>
+      <position y="741.0"/>
+    </element>
+    <element uuid="f8a65c68-8b95-4d77-9c2e-46721f684154" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mechanical_pedal_pos_r</seg>
+      </bo>
+      <position y="188.0"/>
+    </element>
+    <element uuid="292ee814-dc68-4b7b-bf1c-dcc1ca5afcd8" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power1</seg>
+      </bo>
+      <position y="924.0"/>
+    </element>
+    <element uuid="85ee625e-49f4-42bb-acd3-d77d380174e2" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power2</seg>
+      </bo>
+      <position y="1108.0"/>
+    </element>
+    <element uuid="d54370a2-f726-4457-a005-657dfaf57dcc" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power1</seg>
+      </bo>
+      <position y="1993.0"/>
+    </element>
+    <element uuid="fb042b74-9453-47dd-b580-e73db0734774" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power2</seg>
+      </bo>
+      <position y="2053.0"/>
+    </element>
+    <element uuid="82767543-e783-4f3d-8167-4db796c08b78" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>system_validity</seg>
+      </bo>
+      <position x="2610.0" y="1820.0"/>
+    </element>
+    <element uuid="62f71d76-a1b5-4ec5-8b2f-be026d964dd8" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force1</seg>
+      </bo>
+      <position x="2561.0" y="1108.0"/>
+    </element>
+    <element uuid="dd184b8c-6b4a-483f-ab7d-c16caaa086d9" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force2</seg>
+      </bo>
+      <position x="2561.0" y="1408.0"/>
+    </element>
+    <element uuid="f931a4e9-3fca-41e7-a62e-4f4a5176ef55" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force3</seg>
+      </bo>
+      <position x="2561.0" y="1358.0"/>
+    </element>
+    <element uuid="d7ab219b-c85d-4db1-990b-f6d4d329e1f0" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force4</seg>
+      </bo>
+      <position x="2561.0" y="1308.0"/>
+    </element>
+    <element uuid="d40bdaf5-8769-4059-a1b4-d61b642aa414" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force5</seg>
+      </bo>
+      <position x="2561.0" y="1008.0"/>
+    </element>
+    <element uuid="2952c79c-888d-4d18-8283-70b3207a72ee" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force6</seg>
+      </bo>
+      <position x="2561.0" y="1458.0"/>
+    </element>
+    <element uuid="3d05ad1c-e154-4f77-b207-98f6fb39c2f4" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force7</seg>
+      </bo>
+      <position x="2561.0" y="777.0"/>
+    </element>
+    <element uuid="82cd07a7-2893-47bd-b16c-797132f44b73" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force8</seg>
+      </bo>
+      <position x="2561.0" y="1158.0"/>
+    </element>
+    <element uuid="5b95d609-bb28-4542-a104-ef9d1e709040" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status1</seg>
+      </bo>
+      <position x="2617.0" y="646.0"/>
+    </element>
+    <element uuid="05d3d4cc-9914-4a95-a583-4aa749fe2981" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status2</seg>
+      </bo>
+      <position x="2617.0" y="958.0"/>
+    </element>
+    <element uuid="9081ceec-8539-4be6-918f-d4c31ae56f80" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status3</seg>
+      </bo>
+      <position x="2617.0" y="1058.0"/>
+    </element>
+    <element uuid="d562e8da-09c0-4331-9af3-cd677a5ddfdf" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status4</seg>
+      </bo>
+      <position x="2617.0" y="502.0"/>
+    </element>
+    <element uuid="3a243bb7-b9da-4937-ac80-20fc6df0cc38" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status5</seg>
+      </bo>
+      <position x="2617.0" y="1508.0"/>
+    </element>
+    <element uuid="6a73bc35-6115-4c58-9a9f-07f92d627e6e" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status6</seg>
+      </bo>
+      <position x="2617.0" y="1558.0"/>
+    </element>
+    <element uuid="fa88bf30-c633-484e-ac13-b1d8c16c5b35" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status7</seg>
+      </bo>
+      <position x="2617.0" y="1689.0"/>
+    </element>
+    <element uuid="2a6c0ada-ea60-441a-a594-f4b7eb639994" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status8</seg>
+      </bo>
+      <position x="2617.0" y="908.0"/>
+    </element>
+    <element uuid="ecf0b623-7aac-4fa4-9404-c0e1e26d2a5f" manual="true">
+      <element uuid="a119de54-ede1-4036-ad35-d2fff7481337" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_1_5</seg>
+        </bo>
+        <position x="248.0" y="310.0"/>
+      </element>
+      <element uuid="662bb773-32e2-4f6b-bb98-6068d94ea134" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_2_6</seg>
+        </bo>
+        <position x="248.0" y="260.0"/>
+      </element>
+      <element uuid="9d0a80cd-1fb4-400e-a778-bbebe9b4d6e3" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_3_7</seg>
+        </bo>
+        <position x="248.0" y="660.0"/>
+      </element>
+      <element uuid="6097295d-eda9-4458-83b2-e6078936a229" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_4_8</seg>
+        </bo>
+        <position x="248.0" y="360.0"/>
+      </element>
+      <element uuid="c4308442-5acb-4411-b084-b266cfb18fbe" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_1</seg>
+        </bo>
+        <position x="251.0" y="810.0"/>
+      </element>
+      <element uuid="a8e47633-570a-4603-b282-6eb5e2206927" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_2</seg>
+        </bo>
+        <position x="251.0" y="760.0"/>
+      </element>
+      <element uuid="7edc63a6-c441-48db-b3eb-f23e20eb6268" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_3</seg>
+        </bo>
+        <position x="251.0" y="710.0"/>
+      </element>
+      <element uuid="657576ce-a0a5-48ec-9edb-5684046a1b81" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_4</seg>
+        </bo>
+        <position x="251.0" y="560.0"/>
+      </element>
+      <element uuid="8f77081b-5270-417e-b89d-5ff4a553b01b" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_5</seg>
+        </bo>
+        <position x="251.0" y="510.0"/>
+      </element>
+      <element uuid="8d53abe8-2201-4a14-9612-f32f57426aad" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_6</seg>
+        </bo>
+        <position x="251.0" y="460.0"/>
+      </element>
+      <element uuid="706fba96-f16f-449f-b746-cc43f83d2de6" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_7</seg>
+        </bo>
+        <position x="251.0" y="410.0"/>
+      </element>
+      <element uuid="568f349a-f638-4c2b-bb02-aac5f3a3349a" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_8</seg>
+        </bo>
+        <position x="251.0" y="610.0"/>
+      </element>
+      <element uuid="883348d0-d578-498d-9622-e3c842465e86" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>elec_pedal_pos_l</seg>
+        </bo>
+        <position y="510.0"/>
+      </element>
+      <element uuid="1707ed2b-4d2d-4b3a-a132-1532ebea3d8b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>elec_pedal_pos_r</seg>
+        </bo>
+        <position y="327.0"/>
+      </element>
+      <element uuid="f27e05b5-aa7e-4e64-a205-32722e7bced4" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ground_speed</seg>
+        </bo>
+        <position y="143.0"/>
+      </element>
+      <element uuid="8b3f978f-e881-418f-95f4-82626d7c938a" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_1</seg>
+        </bo>
+        <position y="693.0"/>
+      </element>
+      <element uuid="67295373-8b6e-4633-9a34-acb51ac84558" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power_2</seg>
+        </bo>
+        <position y="877.0"/>
+      </element>
+      <element uuid="71f4fea4-c2f9-4382-b529-381e893c4eeb" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_validity</seg>
+        </bo>
+        <position x="260.0" y="860.0"/>
+      </element>
+      <element uuid="7e0fa238-3e62-4eff-b9f4-6e10de0e4c80" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_1</seg>
+        </bo>
+        <position x="255.0" y="60.0"/>
+      </element>
+      <element uuid="9de58332-6b53-4acf-b5af-cced10d36f53" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_2</seg>
+        </bo>
+        <position x="255.0" y="160.0"/>
+      </element>
+      <element uuid="8c9fa3c4-4f42-446a-939f-048ea92087e5" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_3</seg>
+        </bo>
+        <position x="255.0" y="210.0"/>
+      </element>
+      <element uuid="996846ff-036f-45d2-a26f-c57b8bc648e5" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_4</seg>
+        </bo>
+        <position x="255.0" y="10.0"/>
+      </element>
+      <element uuid="6d9c58d7-31e9-4340-87a6-c054e5cfe16a" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_5</seg>
+        </bo>
+        <position x="255.0" y="910.0"/>
+      </element>
+      <element uuid="5fd3d4bf-44ea-48d8-a4d6-8d7334df0c43" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_6</seg>
+        </bo>
+        <position x="255.0" y="960.0"/>
+      </element>
+      <element uuid="7fbce5be-6ca7-4fac-9061-d7ef7020759b" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_7</seg>
+        </bo>
+        <position x="255.0" y="1010.0"/>
+      </element>
+      <element uuid="2032b83e-fe09-44d0-899d-191bf4a734f1" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling_8</seg>
+        </bo>
+        <position x="255.0" y="110.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ctrl_sys</seg>
+      </bo>
+      <position x="679.0" y="231.0"/>
+      <size width="374.0" height="1060.0"/>
+    </element>
+    <element uuid="3713a281-208e-4a5a-9cb5-53f9ecab9413" manual="true">
+      <element uuid="405f3b23-f483-44c3-b9b1-fcdfe6a28689" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>elec_pedal_pos</seg>
+        </bo>
+        <position x="292.0" y="10.0"/>
+      </element>
+      <element uuid="92add57d-2ae2-4b45-a3f4-a3ec25d30cb3" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mech_pedal_pos</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>pedal_sensor_l</seg>
+      </bo>
+      <position x="240.0" y="731.0"/>
+      <size width="409.0" height="60.0"/>
+    </element>
+    <element uuid="729b9086-5ea3-41e3-88ba-869cc50bf786" manual="true">
+      <element uuid="5942c216-f2d5-4ed6-9e71-abff82fc748c" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>elec_pedal_pos</seg>
+        </bo>
+        <position x="293.0" y="10.0"/>
+      </element>
+      <element uuid="468b95a2-800b-41b9-9f5d-e839c4f1de12" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mech_pedal_pos</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>pedal_sensor_r</seg>
+      </bo>
+      <position x="239.0" y="242.0"/>
+      <size width="410.0" height="60.0"/>
+    </element>
+    <element uuid="79dc6b96-2644-4a5a-bad3-4182fd80d4cc" manual="true">
+      <element uuid="74936686-c0d0-4b08-ac58-965553d5246f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>accum_pressure_display</seg>
+        </bo>
+        <position y="1010.0"/>
+      </element>
+      <element uuid="b7adfa8f-3402-486b-9e55-9366441988c1" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>accum_pressure_display_in</seg>
+        </bo>
+        <position x="373.0" y="539.0"/>
+      </element>
+      <element uuid="9d5b0495-93eb-4de2-ade8-1b487a99fabc" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_1_5</seg>
+        </bo>
+        <position y="260.0"/>
+      </element>
+      <element uuid="35b5ba82-76ee-4386-a69b-5bf4193d7575" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_2_6</seg>
+        </bo>
+        <position y="210.0"/>
+      </element>
+      <element uuid="f301ed3b-b2e5-4ff8-a0b3-8c1200c0e991" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_3_7</seg>
+        </bo>
+        <position y="610.0"/>
+      </element>
+      <element uuid="dcb7fcf6-d840-4af7-a072-56ace48b224f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_4_8</seg>
+        </bo>
+        <position y="310.0"/>
+      </element>
+      <element uuid="5caf2581-56b5-4aa5-998d-78bc8fb37718" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_1</seg>
+        </bo>
+        <position y="760.0"/>
+      </element>
+      <element uuid="1eb86196-d0f3-46e4-8b69-6b7be499898c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_2</seg>
+        </bo>
+        <position y="710.0"/>
+      </element>
+      <element uuid="436b873a-a43c-40f2-816f-0680fa0f7436" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_3</seg>
+        </bo>
+        <position y="660.0"/>
+      </element>
+      <element uuid="18f02f24-e581-4c48-bc12-b0fb6d124447" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_4</seg>
+        </bo>
+        <position y="510.0"/>
+      </element>
+      <element uuid="d05092f1-35b6-4bba-9e61-4361a892bfdf" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_5</seg>
+        </bo>
+        <position y="460.0"/>
+      </element>
+      <element uuid="9b8072ca-67ba-4f19-aff8-30ee5558d64b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_6</seg>
+        </bo>
+        <position y="410.0"/>
+      </element>
+      <element uuid="ac1f0098-170c-4a3e-b27c-1cd424307033" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_7</seg>
+        </bo>
+        <position y="360.0"/>
+      </element>
+      <element uuid="f49a8b3f-4da8-440f-a3bc-a5a2e99b6004" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd_8</seg>
+        </bo>
+        <position y="560.0"/>
+      </element>
+      <element uuid="2e2f580a-1234-4e8a-b94e-249b283cb257" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>green_pressure_in_selec_valve</seg>
+        </bo>
+        <position x="345.0" y="597.0"/>
+      </element>
+      <element uuid="668129f7-97cf-4281-9a9a-3e60c9d0da16" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ground_speed</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="ebba6660-dba2-44e5-a21e-bd6ccd310800" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_supply1</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="8591fafc-83b9-43a7-bd83-2fcf67e0e9fb" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_supply2</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="57f64e28-6338-4f04-a8a2-664b0e6c8fdd" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mech_pedal_pos_l</seg>
+        </bo>
+        <position y="860.0"/>
+      </element>
+      <element uuid="0b409285-69a2-467b-9f74-66f466564af6" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mech_pedal_pos_r</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="e3ac1716-a37a-4d3a-9729-62d02c0a6adf" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pump_power1</seg>
+        </bo>
+        <position y="910.0"/>
+      </element>
+      <element uuid="f8cfe361-aba7-4e51-8b5d-068564c8507b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pump_power2</seg>
+        </bo>
+        <position y="960.0"/>
+      </element>
+      <element uuid="31a64f05-6d74-4157-bee0-0cba04660df0" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_validity</seg>
+        </bo>
+        <position y="810.0"/>
+      </element>
+      <element uuid="84c7f7e7-22fd-4e8d-a806-022a7e88c255" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force1</seg>
+        </bo>
+        <position x="412.0" y="423.0"/>
+      </element>
+      <element uuid="929a0999-5e41-4ec0-ad59-74bd326af01d" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force2</seg>
+        </bo>
+        <position x="412.0" y="771.0"/>
+      </element>
+      <element uuid="385c42df-e77e-44d9-b5c5-e3d06d0e768d" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force3</seg>
+        </bo>
+        <position x="412.0" y="713.0"/>
+      </element>
+      <element uuid="5208d231-7d84-4e02-8ad1-f7da0d526c4d" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force4</seg>
+        </bo>
+        <position x="412.0" y="655.0"/>
+      </element>
+      <element uuid="27eac0d2-7b28-474b-95dd-ac76a9726713" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force5</seg>
+        </bo>
+        <position x="412.0" y="365.0"/>
+      </element>
+      <element uuid="fc3f8f30-6108-4af0-b44d-6b30e87bb57d" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force6</seg>
+        </bo>
+        <position x="412.0" y="828.0"/>
+      </element>
+      <element uuid="a9c67a6b-70c8-4ed0-8e16-f360263401a8" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force7</seg>
+        </bo>
+        <position x="412.0" y="192.0"/>
+      </element>
+      <element uuid="472ab093-c854-4350-92c9-32ad70722155" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_braking_force8</seg>
+        </bo>
+        <position x="412.0" y="481.0"/>
+      </element>
+      <element uuid="cc6bbac0-ee46-4f4e-92e1-f8287671eeee" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status1</seg>
+        </bo>
+        <position x="468.0" y="76.0"/>
+      </element>
+      <element uuid="f918c8ca-02bc-4a2a-9fc2-a318101f1d15" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status2</seg>
+        </bo>
+        <position x="468.0" y="249.0"/>
+      </element>
+      <element uuid="6cefe09a-67cc-4e7f-828d-f5ccf2ea5bcd" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status3</seg>
+        </bo>
+        <position x="468.0" y="307.0"/>
+      </element>
+      <element uuid="40a82b16-661a-440f-97ab-d63bfb0c7a45" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status4</seg>
+        </bo>
+        <position x="468.0" y="18.0"/>
+      </element>
+      <element uuid="fa52d010-7b9d-427a-8d96-4d93c079e256" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status5</seg>
+        </bo>
+        <position x="468.0" y="886.0"/>
+      </element>
+      <element uuid="aaa6c10b-f759-4b48-835b-242d7f09262f" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status6</seg>
+        </bo>
+        <position x="468.0" y="944.0"/>
+      </element>
+      <element uuid="53f67a2b-6a45-4dec-beb7-2d972427ef32" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status7</seg>
+        </bo>
+        <position x="468.0" y="1002.0"/>
+      </element>
+      <element uuid="d8811660-3693-428a-bd5f-8f6d75ac838f" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status8</seg>
+        </bo>
+        <position x="468.0" y="134.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>phys_sys</seg>
+      </bo>
+      <position x="1303.0" y="484.0"/>
+      <size width="575.0" height="1060.0"/>
+    </element>
+    <element uuid="2e118524-1a17-4851-9e05-2571d7655129" manual="true">
+      <element uuid="ba8efb08-2172-4ccc-aad5-f96f8fb63a0d" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="99292f3e-67c4-494e-9f3e-04656a53162d" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor1</seg>
+      </bo>
+      <position x="2098.0" y="361.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <element uuid="a28aa488-6d56-40d3-8085-4f18f35e12e3" manual="true">
+      <element uuid="75fa0b03-864f-4950-949d-6dffa0f5e15b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="65a505ba-2331-406f-a900-389be2d9e606" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor2</seg>
+      </bo>
+      <position x="2098.0" y="689.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <element uuid="619d6f5f-82c0-4a1b-a441-dbef8cbaba74" manual="true">
+      <element uuid="f0769b0a-d9e2-4ff2-9373-9f7195d2a9ce" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="be7907b1-6c97-4977-8d13-caf21eaf05cd" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor3</seg>
+      </bo>
+      <position x="2098.0" y="820.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <element uuid="9edba573-4243-493d-8824-7491c90b1ff1" manual="true">
+      <element uuid="fee11f1e-17c7-4952-b0e2-491a87af3061" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="927ef650-2263-48aa-bbe6-7fc0957f4a5d" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor4</seg>
+      </bo>
+      <position x="2098.0" y="231.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <element uuid="4f9265a4-4961-4add-813e-b497a2453fc2" manual="true">
+      <element uuid="72fc7d45-e0f9-4f40-abfc-33439d09c272" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="ddd453e5-a731-4922-a222-75eff447f92e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor5</seg>
+      </bo>
+      <position x="2098.0" y="1601.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <element uuid="bdd9ee0d-18bb-4bc1-b78e-b10ee39e7390" manual="true">
+      <element uuid="d007f00a-cf3a-42b0-adad-f7fc6977596f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="f2848884-ccf7-42c1-a3d5-aa0746ed50e0" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor6</seg>
+      </bo>
+      <position x="2098.0" y="1732.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <element uuid="cb132b1f-55b5-4f70-a5e6-883c821acf8c" manual="true">
+      <element uuid="14062f31-e09b-4c5f-8863-7a00dfedaaee" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="2cde8499-8ce4-4667-9c63-53375f73004d" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor7</seg>
+      </bo>
+      <position x="2098.0" y="1863.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <element uuid="ce15c676-7b2b-4884-a7a3-ebfc6fe470a2" manual="true">
+      <element uuid="e3a564d9-c036-421f-a459-fa06c0b77493" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_rolling</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="22b2d983-3859-44ab-bc45-ecb912f3a468" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_sensor8</seg>
+      </bo>
+      <position x="2098.0" y="558.0"/>
+      <size width="364.0" height="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>wbs.inst</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="2724.0" height="2105.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>wbs::wbs.inst</seg>
+    </context>
+  </config>
+</diagram:Diagram>

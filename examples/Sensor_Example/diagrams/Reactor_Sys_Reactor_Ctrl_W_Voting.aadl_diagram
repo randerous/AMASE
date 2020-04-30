@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="462e1611-35a3-4da8-a662-84856c4276dc" manual="true">
+    <element uuid="b10899af-626d-495d-9ede-cb877202a977" manual="true">
+      <element uuid="bf486f6b-18a2-427f-bb52-7ed08bdfa62b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>env_pressure_to_reactor_pressure_ctrl</seg>
+      </bo>
+    </element>
+    <element uuid="93729bf4-2122-4406-80ec-dbd7d086e699" manual="true">
+      <element uuid="eafd06cb-98bf-4d0a-931a-07b32c602df3" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>env_radiation_to_reactor_radiation_ctrl</seg>
+      </bo>
+    </element>
+    <element uuid="f79f6237-ea0e-4f9f-bc83-30bc42f194a9" manual="true">
+      <element uuid="f3ca0ffa-5929-4204-a4e4-7ab79b86e55f" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>env_temp_to_reactor_temp_ctrl</seg>
+      </bo>
+    </element>
+    <element uuid="ca81bbab-be6a-40fb-956d-538eda90ddda" manual="true">
+      <element uuid="28c22e7f-7be3-4292-844d-455bf69e468e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>reactor_pressure_ctrl_to_shut_down</seg>
+      </bo>
+      <bendpoints>
+        <point x="609.0" y="92.0"/>
+        <point x="609.0" y="172.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d81287d3-9dfd-4e6b-9614-bc476e2d6b88" manual="true">
+      <element uuid="9fc5fb7a-c3ea-49b1-81bc-4e3bb9a4e97c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>reactor_radiation_ctrl_to_shut_down</seg>
+      </bo>
+      <bendpoints>
+        <point x="609.0" y="252.0"/>
+        <point x="609.0" y="172.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="177a9719-d055-474a-b6a3-ce4aca77003e" manual="true">
+      <element uuid="8059120b-8f82-49f7-8b6f-3a60ab0a770d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>reactor_temp_ctrl_to_shut_down</seg>
+      </bo>
+    </element>
+    <element uuid="d6ec4e6b-369e-4eef-b45f-18fd8dcf5f05" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>env_pressure</seg>
+      </bo>
+      <position y="48.0"/>
+    </element>
+    <element uuid="c11602b6-94b3-4a32-b867-e40371598897" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>env_radiation</seg>
+      </bo>
+      <position y="208.0"/>
+    </element>
+    <element uuid="f49d3018-c5cf-4216-8643-657524eae8f1" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>env_temp</seg>
+      </bo>
+      <position y="128.0"/>
+    </element>
+    <element uuid="e0ecc9eb-7087-4a04-83f6-28befba7522b" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>shut_down_cmd</seg>
+      </bo>
+      <position x="619.0" y="128.0"/>
+    </element>
+    <element uuid="0bef56d0-9182-48a5-b89a-5dc720ddec37" manual="true">
+      <element uuid="7e7b9b60-04f9-4523-839e-03f8e0ac543d" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>env_pressure</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="6a3eb692-b419-492d-aba6-26d21c8e1cce" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>shut_down_cmd</seg>
+        </bo>
+        <position x="333.0" y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>reactor_pressure_ctrl</seg>
+      </bo>
+      <position x="125.0" y="38.0"/>
+      <size width="459.0" height="60.0"/>
+    </element>
+    <element uuid="551b6a29-98ef-4eb8-9287-29d736893b4b" manual="true">
+      <element uuid="5b293299-773b-45f0-82b3-59498da7b81e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>env_radiation</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="560cbe42-6288-4345-b5fe-c37460a52b8e" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>shut_down_cmd</seg>
+        </bo>
+        <position x="340.0" y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>reactor_radiation_ctrl</seg>
+      </bo>
+      <position x="121.0" y="198.0"/>
+      <size width="466.0" height="60.0"/>
+    </element>
+    <element uuid="66fc3f3b-37c2-428b-9297-24c5e324198e" manual="true">
+      <element uuid="a1ffcc42-2cb5-4223-83cf-51c7ac31ec9d" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>env_temp</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="3e649a9b-bcbe-4fd9-bb04-25332ef58a47" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>shut_down_cmd</seg>
+        </bo>
+        <position x="309.0" y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>reactor_temp_ctrl</seg>
+      </bo>
+      <position x="137.0" y="118.0"/>
+      <size width="435.0" height="60.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>reactor_ctrl.w_voting</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="745.0" height="270.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>reactor_sys::reactor_ctrl.w_voting</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="68a026d3-0699-48dd-b6c7-b393eef4b82f" manual="true">
+    <element uuid="3c7a20b2-a4b9-4055-82cf-6ece71418878" manual="true">
+      <bo>
+        <seg>agree.assumption</seg>
+        <seg>(physicalsystem) hydraulic pressure and ground speed bounded between 0 and 10 inclusive.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="254.0"/>
+      <size width="716.0" height="52.0"/>
+    </element>
+    <element uuid="982a3335-9480-4377-8552-12f9b764aa64" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) green pressure into selector valve is positive if and only if&#xD;
+						system is valid, pump has power, and we have hydraulic supplied.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="678.0"/>
+      <size width="898.0" height="68.0"/>
+    </element>
+    <element uuid="7d255f1c-ec03-4403-a141-f1147a120efe" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) it will not occur that all wheels are braked inadvertently.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="911.0" y="182.0"/>
+      <size width="585.0" height="52.0"/>
+    </element>
+    <element uuid="012d0a9a-445d-4f41-87ad-4a5757a1d422" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 1 braking force: under either normal or alternate operating mode, the wheel brake&#xD;
+						force is positive.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="326.0"/>
+      <size width="850.0" height="68.0"/>
+    </element>
+    <element uuid="c19dcf65-36e2-437a-81d1-423f5f803566" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 1 force: antiskid command for pair active implies wheel brake force&#xD;
+						which implies brake antiskid command in valid system or invalid system</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="1030.0"/>
+      <size width="953.0" height="68.0"/>
+    </element>
+    <element uuid="1b7d7d19-bf98-4f67-9523-7f53eb00db0f" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 2 braking force: under either normal or alternate operating mode, the wheel brake&#xD;
+						force is positive.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="590.0"/>
+      <size width="850.0" height="68.0"/>
+    </element>
+    <element uuid="2cee76db-a8ba-4904-846d-6eef4bf39841" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 2 force: antiskid command for pair active implies wheel brake force&#xD;
+						which implies brake antiskid command in valid system or invalid system</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="766.0"/>
+      <size width="953.0" height="68.0"/>
+    </element>
+    <element uuid="56878cd3-e8f7-4193-9efa-874f59fc2a3b" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 3 braking force: under either normal or alternate operating mode, the wheel brake&#xD;
+						force is positive.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="502.0"/>
+      <size width="850.0" height="68.0"/>
+    </element>
+    <element uuid="cd63c064-dca8-4d45-a8b1-6cba37363747" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 3 force: antiskid command for pair active implies wheel brake force&#xD;
+						which implies brake antiskid command in valid system or invalid system</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="854.0"/>
+      <size width="953.0" height="68.0"/>
+    </element>
+    <element uuid="58f63d92-5dd1-4f36-bdec-580bd15bad27" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 4 braking force: under either normal or alternate operating mode, the wheel brake&#xD;
+						force is positive.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="414.0"/>
+      <size width="850.0" height="68.0"/>
+    </element>
+    <element uuid="38613c95-6c73-4a30-81fb-e6f819deebeb" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(physicalsystem) wheel 4 force: antiskid command for pair active implies wheel brake force&#xD;
+						which implies brake antiskid command in valid system or invalid system</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="942.0"/>
+      <size width="953.0" height="68.0"/>
+    </element>
+    <element uuid="4c719ed6-7151-4490-ba06-40ee75247fd6" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>all_wheels_brake</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="943.0" y="110.0"/>
+      <size width="194.0" height="52.0"/>
+    </element>
+    <element uuid="37b6db50-8298-462f-8047-0fba2767cc54" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>all_wheels_stopped</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="182.0"/>
+      <size width="214.0" height="52.0"/>
+    </element>
+    <element uuid="c7d610d6-91b6-4dc8-94d9-9dc9adee3baf" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>alternate1</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="1198.0" y="38.0"/>
+      <size width="136.0" height="52.0"/>
+    </element>
+    <element uuid="74f53767-da4e-49c4-8375-fa48e99524a9" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>alternate2</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="730.0" y="38.0"/>
+      <size width="136.0" height="52.0"/>
+    </element>
+    <element uuid="ea5127fb-651b-4bea-a6a7-b400ad53eaae" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>alternate3</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="886.0" y="38.0"/>
+      <size width="136.0" height="52.0"/>
+    </element>
+    <element uuid="3cd7132f-bc4e-4c7d-8688-07888962e75a" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>alternate4</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="1042.0" y="38.0"/>
+      <size width="136.0" height="52.0"/>
+    </element>
+    <element uuid="6c086b82-3e10-4d0b-9414-ac0bd330960c" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>brake_as_not_commanded</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="634.0" y="182.0"/>
+      <size width="257.0" height="52.0"/>
+    </element>
+    <element uuid="176782ac-f1c6-498e-a681-3beca1854606" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>green_pressure_valid</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="388.0" y="182.0"/>
+      <size width="226.0" height="52.0"/>
+    </element>
+    <element uuid="6b446d2c-34dc-4dcb-8927-44d7a6156d79" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>ground_speed_range</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="731.0" y="110.0"/>
+      <size width="192.0" height="52.0"/>
+    </element>
+    <element uuid="308b0af7-8587-4a38-ba55-146663160d34" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>hyd_supply1_range</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="333.0" y="110.0"/>
+      <size width="179.0" height="52.0"/>
+    </element>
+    <element uuid="90df550f-14d6-45d3-8899-a6ac1e75ce01" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>hyd_supply2_range</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="532.0" y="110.0"/>
+      <size width="179.0" height="52.0"/>
+    </element>
+    <element uuid="da47b999-1c3a-466a-aa87-bef0124e7590" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>l_pedal_valid</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="1354.0" y="38.0"/>
+      <size width="158.0" height="52.0"/>
+    </element>
+    <element uuid="21fd4a94-f2ab-4d50-928f-b8018f1f45f7" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>normal1</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="38.0"/>
+      <size width="124.0" height="52.0"/>
+    </element>
+    <element uuid="e858bc0f-8e28-4ee7-91c9-615c4fd12d49" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>normal2</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="298.0" y="38.0"/>
+      <size width="124.0" height="52.0"/>
+    </element>
+    <element uuid="1227a0ef-088a-4463-8fb6-577fa869ac44" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>normal3</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="442.0" y="38.0"/>
+      <size width="124.0" height="52.0"/>
+    </element>
+    <element uuid="b20163fd-64c5-4031-90a0-fe1c6ddd5d1b" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>normal4</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="586.0" y="38.0"/>
+      <size width="124.0" height="52.0"/>
+    </element>
+    <element uuid="cc8e626b-8751-4cb5-8b71-b69cf8b9eca1" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>pedals_not_pressed</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="1157.0" y="110.0"/>
+      <size width="212.0" height="52.0"/>
+    </element>
+    <element uuid="69cefaf9-adfb-4831-9b9b-68bac4e4aacf" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>r_pedal_valid</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="154.0" y="110.0"/>
+      <size width="159.0" height="52.0"/>
+    </element>
+    <element uuid="c72ae5b4-03ce-481a-a6a4-11017e619b99" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>accum_pressure_display</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <element uuid="43fe0cb1-d622-4a87-91a6-11b250e94334" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>accum_pressure_display_in</seg>
+      </bo>
+      <position y="1160.0"/>
+    </element>
+    <element uuid="a9fee1be-79dc-4553-b4ad-c757e291d665" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_1_3</seg>
+      </bo>
+      <position y="160.0"/>
+    </element>
+    <element uuid="f0b06836-3784-48ba-8be7-00ddc315d9ee" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_2_4</seg>
+      </bo>
+      <position y="410.0"/>
+    </element>
+    <element uuid="c340c550-5050-4ea8-bdb6-a11b5b534f33" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_1</seg>
+      </bo>
+      <position y="560.0"/>
+    </element>
+    <element uuid="96d9c0a4-1cad-461e-9cfe-172fbe62d181" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_2</seg>
+      </bo>
+      <position y="510.0"/>
+    </element>
+    <element uuid="e5d60885-3125-4dc7-b511-352654f34b4f" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_3</seg>
+      </bo>
+      <position y="460.0"/>
+    </element>
+    <element uuid="a6f96f65-138d-4cbf-b7a5-8ad09848d4db" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_4</seg>
+      </bo>
+      <position y="310.0"/>
+    </element>
+    <element uuid="6958e83f-b385-470f-9e85-7a57c88daf29" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>green_pressure_in_selec_valve</seg>
+      </bo>
+      <position y="1060.0"/>
+    </element>
+    <element uuid="f56402d3-be8d-4f4f-aebd-28b565f2ec46" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ground_speed</seg>
+      </bo>
+      <position y="210.0"/>
+    </element>
+    <element uuid="ffa7ecad-9dc9-44a6-8477-2b7214925c72" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply1</seg>
+      </bo>
+      <position y="110.0"/>
+    </element>
+    <element uuid="4a513be4-6a14-4157-b73a-35334415ced4" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply2</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <element uuid="b50b5871-8ec9-4cde-bb65-837e87d2e5ec" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mech_pedal_pos_l</seg>
+      </bo>
+      <position y="260.0"/>
+    </element>
+    <element uuid="efc17ec5-1ba3-4911-a205-f1df4f5d8cc0" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mech_pedal_pos_r</seg>
+      </bo>
+      <position y="360.0"/>
+    </element>
+    <element uuid="5b81d3e3-62e4-4349-825c-a5fc28346472" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power1</seg>
+      </bo>
+      <position y="660.0"/>
+    </element>
+    <element uuid="cbb06039-7cd4-4e21-b3a6-6275d0ad9638" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power2</seg>
+      </bo>
+      <position y="710.0"/>
+    </element>
+    <element uuid="abc83a0c-137a-4c77-84b1-a12d9b00bd31" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>system_validity</seg>
+      </bo>
+      <position y="610.0"/>
+    </element>
+    <element uuid="5563fec1-189b-448c-ad9a-a99b59678a44" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force1</seg>
+      </bo>
+      <position y="1210.0"/>
+    </element>
+    <element uuid="b3c41b78-1c84-48f1-9204-dd1cefa117e4" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force2</seg>
+      </bo>
+      <position y="1010.0"/>
+    </element>
+    <element uuid="c97ec092-7342-42c1-ae21-a581a7977f62" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force3</seg>
+      </bo>
+      <position y="1110.0"/>
+    </element>
+    <element uuid="5b559519-4ae6-4693-94b6-de21f007a1fd" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force4</seg>
+      </bo>
+      <position y="960.0"/>
+    </element>
+    <element uuid="f4c82032-8cfe-4183-9376-4bc6d00a2ad0" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status1</seg>
+      </bo>
+      <position y="910.0"/>
+    </element>
+    <element uuid="640d34fd-9db8-4e1d-95b0-0caeb5141b32" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status2</seg>
+      </bo>
+      <position y="810.0"/>
+    </element>
+    <element uuid="c2c6a04a-8b84-4f84-9c7b-e0ccbe65f471" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status3</seg>
+      </bo>
+      <position y="860.0"/>
+    </element>
+    <element uuid="8459f8fc-dd73-4890-a785-96a6c3b6ba8c" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status4</seg>
+      </bo>
+      <position y="760.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>physicalsystem</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1754.0" height="1260.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>physicalsystem::physicalsystem</seg>
+    </context>
+  </config>
+</diagram:Diagram>

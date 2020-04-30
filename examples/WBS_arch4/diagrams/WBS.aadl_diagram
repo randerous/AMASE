@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="e8512b32-39b3-4a9a-b552-3cc40e5bfbca" manual="true">
+    <element uuid="89b10bda-301b-4d5a-9064-cbb10ac2dfaa" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>wbs</seg>
+      </bo>
+      <position x="200.0" y="38.0"/>
+      <size width="91.0" height="35.0"/>
+    </element>
+    <element uuid="8b807180-e1e8-43ca-8bbc-bf7b02472191" manual="true">
+      <element uuid="55e37698-58d2-4a7c-be2c-dcfe30e69d15" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="196.0" y="67.5"/>
+          <point x="208.0" y="67.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>wbs.inst</seg>
+      </bo>
+      <position x="63.0" y="38.0"/>
+      <size width="117.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>wbs</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="839.0" height="299.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>wbs</seg>
+    </context>
+  </config>
+</diagram:Diagram>

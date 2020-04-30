@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8bf59a00-7648-4f22-bbe4-e1f7312684fd" manual="true">
+    <element uuid="31694399-ba92-433b-bf4c-1f38b841331e" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>selectorvalve</seg>
+      </bo>
+      <position x="318.0" y="38.0"/>
+      <size width="148.0" height="35.0"/>
+    </element>
+    <element uuid="abb70d22-5952-4b67-b0e0-760f0e278bd3" manual="true">
+      <element uuid="df91e57d-361e-4065-a8b5-7886872986b4" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="314.0" y="67.5"/>
+          <point x="326.0" y="67.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>selectorvalve.inst</seg>
+      </bo>
+      <position x="120.0" y="38.0"/>
+      <size width="178.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>selectorvalve</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="839.0" height="259.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>selectorvalve</seg>
+    </context>
+  </config>
+</diagram:Diagram>

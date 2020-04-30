@@ -12,7 +12,7 @@ system A
 			
 	annex agree {** 
 		assume "A input range" : Input < 20;
-		guarantee "A output range" : Output < 2*Input;
+		guarantee "A output range" : Output < 0*Input;
 	**};	
 	
 	annex safety {**
@@ -90,8 +90,8 @@ system implementation top_level.Impl
 	**};
 	
     annex safety{**
-	  analyze : probability 1.0E-7
-	  --analyze : max 2 fault
+	  --analyze : probability 1.0E-7
+	  analyze : max 2 fault
    **};
 end top_level.Impl;
 	

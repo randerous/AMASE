@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="fc7cd2fe-5ff6-40d0-a9bf-e6b0997fdd40" manual="true">
+    <element uuid="afd2c8c3-e177-4d91-af3e-559ca7f873a9" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(sensorpedalposition) mechanical pedal position is equivalent to electrical pedal position.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="137.0" y="38.0"/>
+      <size width="705.0" height="52.0"/>
+    </element>
+    <element uuid="d7507f89-9089-4576-9570-fc79a058f26e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>elec_pedal_pos</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <element uuid="07bbd56f-0b34-4fe1-856c-63aa9c8fecf6" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mech_pedal_pos</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>sensorpedalposition</seg>
+    </bo>
+    <position y="160.0"/>
+    <size width="971.0" height="110.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>sensor::sensorpedalposition</seg>
+    </context>
+  </config>
+</diagram:Diagram>

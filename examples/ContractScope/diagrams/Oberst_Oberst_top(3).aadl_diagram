@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8dbe4e0b-12e0-435d-9ddf-55fbd0c022c6" manual="true">
+    <element uuid="745efc2a-4d97-4f59-ac92-4632f561fa01" manual="true">
+      <element uuid="cf989cfe-cc43-413b-ab42-004c54d547ec" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>inputs</seg>
+      </bo>
+    </element>
+    <element uuid="3dc03a8c-1af7-40ca-a22d-e744672b0454" manual="true">
+      <element uuid="fe2c1c2b-19b4-47a6-9f67-f328942bee6c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>outputs</seg>
+      </bo>
+    </element>
+    <element uuid="3cb95aed-f3b1-4ae4-a6f6-281fa4434b17" manual="true">
+      <element uuid="d8519f2f-f72a-4969-8fc9-a9f08aafe0c4" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>outputs2</seg>
+      </bo>
+    </element>
+    <element uuid="3761082a-fc41-4f30-be23-862bcd788413" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>in1</seg>
+      </bo>
+      <position y="73.0"/>
+    </element>
+    <element uuid="42f1c916-5657-49df-9f5c-fce2c55772c0" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>out1</seg>
+      </bo>
+      <position x="494.0" y="48.0"/>
+    </element>
+    <element uuid="2eb44a73-2de2-4c08-a598-6185cb4ed43e" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>out2</seg>
+      </bo>
+      <position x="494.0" y="98.0"/>
+    </element>
+    <element uuid="83f29121-868b-429e-9eef-d2c1ece082ef" manual="true">
+      <element uuid="570f6dc8-44a9-480d-996a-15fae7c00d01" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>in_1</seg>
+        </bo>
+        <position y="35.0"/>
+      </element>
+      <element uuid="432438f1-717f-4eb6-bafe-0462b7db91c9" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>out_1</seg>
+        </bo>
+        <position x="134.0" y="10.0"/>
+      </element>
+      <element uuid="29a4e337-f95c-4295-9b45-527ffa6b06a1" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>out_2</seg>
+        </bo>
+        <position x="134.0" y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>sub</seg>
+      </bo>
+      <position x="49.0" y="38.0"/>
+      <size width="186.0" height="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>oberst.top</seg>
+    </bo>
+    <position x="-160.0" y="-190.0"/>
+    <size width="539.0" height="299.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>oberst::oberst.top</seg>
+    </context>
+  </config>
+</diagram:Diagram>

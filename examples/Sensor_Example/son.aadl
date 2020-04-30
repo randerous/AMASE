@@ -1,0 +1,16 @@
+package son
+public
+with Base_Types;
+
+	system son
+		features
+			ii : in data port Base_Types::Boolean;
+			oo : out data port Base_Types::Boolean;
+		
+		annex agree {**
+			guarantee "sa" :
+			 true -> ii = oo;
+		**};
+	end son;
+end son;
+

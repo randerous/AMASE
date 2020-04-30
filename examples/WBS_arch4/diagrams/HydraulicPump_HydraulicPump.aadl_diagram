@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="b713c78f-443d-4d13-9d30-f2b689d88dc4" manual="true">
+    <element uuid="1951318e-2edb-4896-95d2-c21e898762c4" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_pressure_out</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <element uuid="91ef1369-90bd-4a2f-9b57-ebbf11964dfc" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <element uuid="9b48c6e3-62f3-4afe-af61-f624e8139cc7" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power</seg>
+      </bo>
+      <position y="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>hydraulicpump</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="417.0" height="160.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>hydraulicpump::hydraulicpump</seg>
+    </context>
+  </config>
+</diagram:Diagram>

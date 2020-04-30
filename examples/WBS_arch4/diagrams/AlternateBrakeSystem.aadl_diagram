@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="ad71c61b-6d36-493d-982c-8dccb2fe4065" manual="true">
+    <element uuid="4973cad5-0114-4d27-bcc7-c94d15d02956" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>alternatebrakesystem</seg>
+      </bo>
+      <position x="436.0" y="93.0"/>
+      <size width="207.0" height="35.0"/>
+    </element>
+    <element uuid="fe09bca5-4703-4bb7-90ff-2d0a9a7ff43a" manual="true">
+      <element uuid="e1e8ab2b-b4ac-4024-a190-ba64257d1da3" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="432.0" y="122.5"/>
+          <point x="444.0" y="122.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>alternatebrakesystem.inst</seg>
+      </bo>
+      <position x="178.0" y="93.0"/>
+      <size width="238.0" height="35.0"/>
+    </element>
+    <element uuid="cf32b92d-a5cf-4e27-bc48-9311cbe6f524" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>antiskidshutoffvalve</seg>
+      </bo>
+      <position x="425.0" y="38.0"/>
+      <size width="196.0" height="35.0"/>
+    </element>
+    <element uuid="7132f595-11fd-4615-ba87-c090306ca8f6" manual="true">
+      <element uuid="1b73ad1a-e927-4a47-8b37-2604d5034a2c" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="421.0" y="67.5"/>
+          <point x="433.0" y="67.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>antiskidshutoffvalve.inst</seg>
+      </bo>
+      <position x="178.0" y="38.0"/>
+      <size width="227.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>alternatebrakesystem</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="655.0" height="140.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>alternatebrakesystem</seg>
+    </context>
+  </config>
+</diagram:Diagram>

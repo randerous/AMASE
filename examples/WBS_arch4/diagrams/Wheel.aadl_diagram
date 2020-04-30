@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="915c8adb-e52f-4763-8b79-a6df0586e26a" manual="true">
+    <element uuid="b74324ca-ac49-48fd-a7ad-3b9f2f702032" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>wheel</seg>
+      </bo>
+      <position x="220.0" y="38.0"/>
+      <size width="101.0" height="35.0"/>
+    </element>
+    <element uuid="71101b6e-bf48-494f-ad4c-1cb7f74e927c" manual="true">
+      <element uuid="4147f3f6-fab2-45ad-8228-e8cf609656b8" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="216.0" y="67.5"/>
+          <point x="228.0" y="67.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>wheel.inst</seg>
+      </bo>
+      <position x="73.0" y="38.0"/>
+      <size width="127.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>wheel</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="333.0" height="100.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>wheel</seg>
+    </context>
+  </config>
+</diagram:Diagram>

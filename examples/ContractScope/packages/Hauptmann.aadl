@@ -1,16 +1,44 @@
 package Hauptmann
 public
 with Base_Types;
+with son;
 
 	system Hauptmann
 		features 
 			in_1 : in data port Base_Types::Boolean;
 			out_1: out data port Base_Types::Boolean;
-			
+			out_2: out data port Base_Types::Boolean;		
 		
 	annex agree {**
+		assume "sub_assume" : in_1 = true or in_1 = false;
 		guarantee "Input equals output." : 
-			in_1 = out_1;
+			out_2 = in_1 and out_1 = in_1 ;
 	**};
+	
+	annex safety {**
+		fault sub_fault "sub out_1 stuck at false" : Common_Faults.stuck_false {
+				inputs: val_in <- true ; 
+				outputs: out_1 <- val_out;    
+        		probability: 1.0E-10 ;
+				duration: permanent;
+			}
+	**};	
 	end Hauptmann;
+	
+	system implementation Hauptmann.inst
+		subcomponents
+			cs: system son::son;
+		connections
+			ason : port in_1 -> cs.ii;
+			bs: port cs.oo -> out_1;  
+			dafs: port cs.oo2 -> out_2;
+
+		annex safety {**
+			analyze : max 2 fault
+			
+			
+			
+		**};
+	
+	end Hauptmann.inst;
 end Hauptmann;

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="9497f5cc-1cb0-40ae-86f6-2aa3850bc150" manual="true">
+    <element uuid="b833093a-5f46-40d1-b7c0-1663cc0aef9e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>accum_pressure_display</seg>
+      </bo>
+      <position y="1310.0"/>
+    </element>
+    <element uuid="edb807e0-62a0-4734-86df-f4f41a500f4c" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>green_pressure_in_selector_valve</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <element uuid="884534e1-3ff9-4c3c-9c1a-5c5468eec7be" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ground_speed</seg>
+      </bo>
+      <position y="160.0"/>
+    </element>
+    <element uuid="05dacfa0-a5c5-455c-8111-fb02871d7e99" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply1</seg>
+      </bo>
+      <position y="110.0"/>
+    </element>
+    <element uuid="0db44cfe-c8ad-458f-a50a-23dcb7f32a61" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply2</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <element uuid="5cacb4b3-b2e1-4228-ab56-35e9bbd60893" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mechanical_pedal_pos_l</seg>
+      </bo>
+      <position y="310.0"/>
+    </element>
+    <element uuid="6c0fb144-71ee-445d-941e-40cbeaded64c" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mechanical_pedal_pos_r</seg>
+      </bo>
+      <position y="460.0"/>
+    </element>
+    <element uuid="fda4d306-4c1c-4972-ac3b-4b17a024af0a" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power1</seg>
+      </bo>
+      <position y="260.0"/>
+    </element>
+    <element uuid="43b077a2-9eaf-4a21-9d3f-b6322db87b27" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power2</seg>
+      </bo>
+      <position y="210.0"/>
+    </element>
+    <element uuid="335f6086-858a-48f4-a272-e880197bee82" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power1</seg>
+      </bo>
+      <position y="360.0"/>
+    </element>
+    <element uuid="cd4de874-ccdf-41c0-8793-d0fabbe25a80" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power2</seg>
+      </bo>
+      <position y="410.0"/>
+    </element>
+    <element uuid="c7db2d36-4b1a-4b1f-90a2-01cd8c227d52" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>system_validity</seg>
+      </bo>
+      <position y="1360.0"/>
+    </element>
+    <element uuid="08525c84-8dba-4574-800c-e03100f1a8a8" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force1</seg>
+      </bo>
+      <position y="1260.0"/>
+    </element>
+    <element uuid="591d3762-1ecf-403b-a87d-184bf6eb66e8" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force2</seg>
+      </bo>
+      <position y="1160.0"/>
+    </element>
+    <element uuid="ffd2196f-4840-4694-9776-040a568da1a1" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force3</seg>
+      </bo>
+      <position y="1210.0"/>
+    </element>
+    <element uuid="9479f405-91d1-4002-a72a-71982efc54d5" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force4</seg>
+      </bo>
+      <position y="1060.0"/>
+    </element>
+    <element uuid="0013b748-30f6-4d06-aed6-d84ccbef64a4" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force5</seg>
+      </bo>
+      <position y="1110.0"/>
+    </element>
+    <element uuid="4680e755-0a9a-4719-b2e7-ad8b026e32af" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force6</seg>
+      </bo>
+      <position y="960.0"/>
+    </element>
+    <element uuid="ff392e91-c454-451f-8d19-658d44e193ee" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force7</seg>
+      </bo>
+      <position y="1010.0"/>
+    </element>
+    <element uuid="0c3bcab0-3b53-45f7-8bd8-25b7a7a45cf4" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force8</seg>
+      </bo>
+      <position y="910.0"/>
+    </element>
+    <element uuid="2d289605-581e-4b09-8abe-2a6fa667e191" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status1</seg>
+      </bo>
+      <position y="860.0"/>
+    </element>
+    <element uuid="82cacce3-ca87-439a-874f-069e34ed4d13" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status2</seg>
+      </bo>
+      <position y="760.0"/>
+    </element>
+    <element uuid="c1f2867c-47a8-4de3-8c40-b1bb14b99ff7" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status3</seg>
+      </bo>
+      <position y="810.0"/>
+    </element>
+    <element uuid="f9b28b76-d202-4907-87ba-ffbc358be424" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status4</seg>
+      </bo>
+      <position y="660.0"/>
+    </element>
+    <element uuid="049d9aa2-f202-45fb-9f3b-663e81a414c7" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status5</seg>
+      </bo>
+      <position y="710.0"/>
+    </element>
+    <element uuid="875bcabb-d81d-46cc-8b90-a007dd7a5e22" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status6</seg>
+      </bo>
+      <position y="560.0"/>
+    </element>
+    <element uuid="7acacb41-2867-4e9e-aacf-d8e1972ccf27" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status7</seg>
+      </bo>
+      <position y="610.0"/>
+    </element>
+    <element uuid="5b32ad82-f71c-423f-b8c5-4e26b975fb89" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status8</seg>
+      </bo>
+      <position y="510.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>wbs</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="591.0" height="1410.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>wbs::wbs</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="cfee2329-3327-488b-aac2-ef792f8c7e5c" manual="true">
+    <element uuid="97026826-afac-44a9-a3e5-68be91af1349" manual="true">
+      <bo>
+        <seg>agree.assumption</seg>
+        <seg>(bscu) ground speed always greater than zero.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="110.0"/>
+      <size width="388.0" height="52.0"/>
+    </element>
+    <element uuid="aeede09c-126e-47be-99d3-524a9e5d08c0" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg> (ctrl system) brake antiskid command behavior (wheel 1): brake antiskid is commanded to the wheel only when &#xD;
+							pedal pressed, system valid, and either speed and rolling wheel or no speed.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="270.0"/>
+      <size width="1060.0" height="68.0"/>
+    </element>
+    <element uuid="07876514-5d1a-40b4-b27e-fbc92244674e" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg> (ctrl system) brake antiskid command behavior (wheel 2): brake antiskid is commanded to the wheel only when &#xD;
+							pedal pressed, system valid, and either speed and rolling wheel or no speed.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="446.0"/>
+      <size width="1060.0" height="68.0"/>
+    </element>
+    <element uuid="1169a930-b440-4444-939f-fbf5e71700cf" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg> (ctrl system) brake antiskid command behavior (wheel 3): brake antiskid is commanded to the wheel only when &#xD;
+							pedal pressed, system valid, and either speed and rolling wheel or no speed.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="358.0"/>
+      <size width="1060.0" height="68.0"/>
+    </element>
+    <element uuid="c2b7c52b-2b56-40e1-985f-7417074b28e9" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg> (ctrl system) brake antiskid command behavior (wheel 4): brake antiskid is commanded to the wheel only when &#xD;
+							pedal pressed, system valid, and either speed and rolling wheel or no speed.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="182.0"/>
+      <size width="1060.0" height="68.0"/>
+    </element>
+    <element uuid="f94bcc8e-b2ff-4eb3-96e4-3bedcf7c7ff1" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(channel) antiskid command to pair 1,3: alternate as command is true if and only if&#xD;
+							we have power, ground speed is positive, and one of the two wheels is not rolling.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="622.0"/>
+      <size width="1072.0" height="68.0"/>
+    </element>
+    <element uuid="1490f5cd-74a8-4211-a7e1-7bf8e9441428" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(channel) antiskid command to pair 2,6: alternate as command is true if and only if&#xD;
+							we have power, ground speed is positive, and one of the two wheels is not rolling.</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="534.0"/>
+      <size width="1072.0" height="68.0"/>
+    </element>
+    <element uuid="71c49490-370c-47a2-a68b-f088648e6745" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>pair_not_rolling_13</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="807.0" y="38.0"/>
+      <size width="209.0" height="52.0"/>
+    </element>
+    <element uuid="4f1839e8-35d2-401e-852c-31325713c9b4" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>pair_not_rolling_24</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="578.0" y="38.0"/>
+      <size width="209.0" height="52.0"/>
+    </element>
+    <element uuid="b504176a-fc18-4da1-b6f9-c4e3e2c25565" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>power</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="290.0" y="38.0"/>
+      <size width="124.0" height="52.0"/>
+    </element>
+    <element uuid="bdeaf385-66ad-4090-b119-7a8ae70ad22b" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>speed</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="146.0" y="38.0"/>
+      <size width="124.0" height="52.0"/>
+    </element>
+    <element uuid="529f1f6a-a652-4d7b-afc8-e1b6ecac4373" manual="true">
+      <bo>
+        <seg>agree.property</seg>
+        <seg>valid</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="434.0" y="38.0"/>
+      <size width="124.0" height="52.0"/>
+    </element>
+    <element uuid="ebefdf97-5ee6-400b-8b3e-a5adb8e22823" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_1_3</seg>
+      </bo>
+      <position y="560.0"/>
+    </element>
+    <element uuid="1a2d2a45-b436-4511-b87d-f430ac46cb11" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_2_4</seg>
+      </bo>
+      <position y="610.0"/>
+    </element>
+    <element uuid="fdd82104-70ca-4040-be47-0c290ccf2d6e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_1</seg>
+      </bo>
+      <position y="760.0"/>
+    </element>
+    <element uuid="64a2330b-1e55-4816-a5e8-7336e6564025" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_2</seg>
+      </bo>
+      <position y="710.0"/>
+    </element>
+    <element uuid="d3f12080-816e-4dee-8c43-176e41a050b2" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_3</seg>
+      </bo>
+      <position y="660.0"/>
+    </element>
+    <element uuid="9bb99f93-2792-4825-bf35-9f54c14b09eb" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_4</seg>
+      </bo>
+      <position y="510.0"/>
+    </element>
+    <element uuid="52f41f2c-97d3-4da6-b4c4-f163b69fa1bf" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>elec_pedal_pos_l</seg>
+      </bo>
+      <position y="460.0"/>
+    </element>
+    <element uuid="02dac8a2-204c-4886-886c-e13fb1074da0" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>elec_pedal_pos_r</seg>
+      </bo>
+      <position y="160.0"/>
+    </element>
+    <element uuid="961dd1fc-1f17-459f-b79d-08b316123970" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ground_speed</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <element uuid="69417cb7-399f-4f1b-af06-ce23e3c93423" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power_1</seg>
+      </bo>
+      <position y="210.0"/>
+    </element>
+    <element uuid="be9395f2-c44c-4f55-9465-d85666959aff" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>power_2</seg>
+      </bo>
+      <position y="260.0"/>
+    </element>
+    <element uuid="e1c7c391-f5c6-4888-9200-1449ffaf6d72" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>system_validity</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <element uuid="1b9a38c9-b890-49f5-ac05-471995c04a86" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_1</seg>
+      </bo>
+      <position y="310.0"/>
+    </element>
+    <element uuid="08aa37a7-1cc7-4c3e-a54c-b911e9c90393" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_2</seg>
+      </bo>
+      <position y="360.0"/>
+    </element>
+    <element uuid="dce64f27-dcee-4aa5-9eef-cbbc5b2e93c0" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_3</seg>
+      </bo>
+      <position y="410.0"/>
+    </element>
+    <element uuid="72326021-4127-40da-985e-fb5bde957812" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling_4</seg>
+      </bo>
+      <position y="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>bscu</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1356.0" height="810.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>bscu::bscu</seg>
+    </context>
+  </config>
+</diagram:Diagram>

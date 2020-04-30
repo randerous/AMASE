@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="9f77f58f-d4fa-4e84-a288-5e62e4863b75" manual="true">
+    <element uuid="cbcf05c0-1860-4385-b8ba-992926ea8dd9" manual="true">
+      <element uuid="e3a5b614-08d7-40c7-9fca-aa73ca025b93" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>accum_pressure_to_add_gate</seg>
+      </bo>
+    </element>
+    <element uuid="5d000701-e7d0-4dcd-b36f-96567b7fb7e0" manual="true">
+      <element uuid="5313443a-4676-46a9-9635-4964e7c27b05" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>add_gate_to_selector</seg>
+      </bo>
+      <bendpoints>
+        <point x="1623.0" y="308.0"/>
+        <point x="1623.0" y="336.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="637bc12b-5340-42fe-83e5-f69418065222" manual="true">
+      <element uuid="26342533-aaa5-44ac-b5d6-6c8af488c46c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alt_pressure_to_wb_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="2545.0" y="269.33333333333326"/>
+        <point x="2545.0" y="725.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d4c5c318-9b05-4b63-9357-1057d6c1d045" manual="true">
+      <element uuid="f61f8a86-496f-4412-86f8-5a3d6a36c226" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alt_pressure_to_wb_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="2525.0" y="386.0"/>
+        <point x="2525.0" y="595.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="100d823e-2a74-416d-b341-37bd5007252c" manual="true">
+      <element uuid="06587841-15c1-43b7-b4a8-46bb1bf6aeff" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alt_pressure_to_wb_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="2545.0" y="269.33333333333326"/>
+        <point x="2545.0" y="464.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="4bcd5a39-1fb2-4cb4-ba04-ba71cc887fca" manual="true">
+      <element uuid="5a6e0b31-1f85-4c71-8d99-01c1cfa4c0c4" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alt_pressure_to_wb_4</seg>
+      </bo>
+      <bendpoints>
+        <point x="2525.0" y="386.0"/>
+        <point x="2525.0" y="986.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="40333ecb-651b-4e3a-8a36-fe0017953374" manual="true">
+      <element uuid="468a2fa1-0368-4333-a80c-cfd83a0c5ce7" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>as_cmd_1_5</seg>
+      </bo>
+      <bendpoints>
+        <point x="2058.0" y="130.0"/>
+        <point x="2058.0" y="252.66666666666663"/>
+      </bendpoints>
+    </element>
+    <element uuid="59650ad8-172d-4cdb-b78f-410bcc87ef5d" manual="true">
+      <element uuid="7f66136a-a4a3-4850-8622-fdb942bb02bd" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>as_cmd_2_6</seg>
+      </bo>
+      <bendpoints>
+        <point x="2068.0" y="80.0"/>
+        <point x="2068.0" y="202.66666666666663"/>
+      </bendpoints>
+    </element>
+    <element uuid="9269edd9-affa-4eee-9d1b-763192f823a2" manual="true">
+      <element uuid="e320d204-2dee-4913-b66c-a374e1db9af4" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>blue_pressure_to_add_gate</seg>
+      </bo>
+      <bendpoints>
+        <point x="695.0" y="308.0"/>
+        <point x="695.0" y="255.0"/>
+        <point x="1188.0" y="255.0"/>
+        <point x="1188.0" y="283.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d3f3b924-70b5-4a59-83b1-1bbf92fcf03e" manual="true">
+      <element uuid="554517ec-1325-4e28-b324-94500a467484" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_as_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="2048.0" y="684.0"/>
+        <point x="2048.0" y="765.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="b6d7f234-0f9c-4193-9c8a-0267d1fa9478" manual="true">
+      <element uuid="8d84f741-6939-45d6-9533-51ad4797bbc8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_as_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="2058.0" y="634.0"/>
+        <point x="2058.0" y="715.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="0166c0f9-b47c-439a-b44c-89842ae636eb" manual="true">
+      <element uuid="66191d24-7cf1-4870-8cea-eca58b370dee" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_as_3</seg>
+      </bo>
+    </element>
+    <element uuid="9fa3a18f-f118-4e8e-b670-75dea3d246e6" manual="true">
+      <element uuid="3e26f683-3994-4b6c-a122-99c58bfa7292" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_as_4</seg>
+      </bo>
+      <bendpoints>
+        <point x="2068.0" y="464.0"/>
+        <point x="2068.0" y="665.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="71c5eb2f-4c1a-496d-834c-9236a0949392" manual="true">
+      <element uuid="91d2b72a-a0a6-4082-86a3-9d9d6f69daa3" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="3074.0" y="750.0"/>
+        <point x="3074.0" y="1194.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="e9ecf55f-cde1-4510-b8d2-6e22e2ee96f4" manual="true">
+      <element uuid="2b0cd494-c1a1-4371-88ed-e7deaadaf10d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="3094.0" y="620.0"/>
+        <point x="3094.0" y="933.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="9e2fa125-c990-4cdb-9075-bd09393a16e6" manual="true">
+      <element uuid="9a967fbd-dc03-4479-a7b3-195f521211cb" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="3104.0" y="489.0"/>
+        <point x="3104.0" y="803.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="b7fb89e5-5303-4b6f-8990-689e9422f792" manual="true">
+      <element uuid="8eac9d9d-80cb-40f4-a6ff-603dd2ccb718" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>brake_force_4</seg>
+      </bo>
+      <bendpoints>
+        <point x="3094.0" y="1011.0"/>
+        <point x="3094.0" y="1064.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="2a15911e-5318-4c98-9139-9f0d30953283" manual="true">
+      <element uuid="a4327609-ad6e-403e-bce4-86802a2c2251" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>braking_force_out_1</seg>
+      </bo>
+    </element>
+    <element uuid="ee5c4688-4618-4775-b09f-79785b3375ae" manual="true">
+      <element uuid="351b1ab6-ae1a-457e-b3dc-f416e0b6b5d1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>braking_force_out_2</seg>
+      </bo>
+    </element>
+    <element uuid="74eb4471-5c36-46f6-9db5-71c232763b59" manual="true">
+      <element uuid="5e8274b5-3676-4a3f-8ca2-b0ed8e280386" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>braking_force_out_3</seg>
+      </bo>
+    </element>
+    <element uuid="edb9152d-ec83-4224-8870-b33e37e67006" manual="true">
+      <element uuid="5e28d4f0-c68f-4e20-8ce6-dc5abb79c7f9" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>braking_force_out_4</seg>
+      </bo>
+    </element>
+    <element uuid="c0537214-efb6-494c-bb87-399cf3798043" manual="true">
+      <element uuid="a473af33-c922-4235-ab6f-0dab989558f6" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>green_pressure_to_shutoff</seg>
+      </bo>
+      <bendpoints>
+        <point x="1188.0" y="762.0"/>
+        <point x="1188.0" y="567.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="af9812de-efa9-44a8-93ca-16a47a9da9db" manual="true">
+      <element uuid="1fbc21f0-2c92-40a6-b0b0-9f0428a361a3" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ground_speed_1</seg>
+      </bo>
+      <bendpoints>
+        <point x="3084.0" y="1114.0"/>
+        <point x="3084.0" y="1244.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="7f11d1cc-8770-42f4-9f44-1d7c6e5c8373" manual="true">
+      <element uuid="0eec7b41-24ac-43f4-a2a4-41a5ec01f209" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ground_speed_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="3084.0" y="1114.0"/>
+        <point x="3084.0" y="983.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="23858a2f-68ae-4eaa-9b2a-16831221658f" manual="true">
+      <element uuid="66075bdc-6a28-4aed-bcc8-437db2aee745" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ground_speed_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="3084.0" y="1114.0"/>
+        <point x="3084.0" y="853.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="92605e30-6834-4d3e-8b18-a2b05ed20096" manual="true">
+      <element uuid="2fd4894a-0129-47ff-93e1-0284a9647235" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ground_speed_4</seg>
+      </bo>
+    </element>
+    <element uuid="c3f61d1b-301c-47ab-bb5c-a70c81481bfc" manual="true">
+      <element uuid="56ed9a17-8e3d-4c3b-8941-8d46c10fe509" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hyd_supply_to_blue_pump</seg>
+      </bo>
+      <bendpoints>
+        <point x="695.0" y="1064.0"/>
+        <point x="695.0" y="787.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="0df7bf7d-8fcf-45c7-b6f0-06143aedd242" manual="true">
+      <element uuid="79786724-3ee8-436e-a100-6ad224cfde04" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>hyd_supply_to_green_pump</seg>
+      </bo>
+    </element>
+    <element uuid="0c435453-e776-4142-9aee-2cd00c9bdb1b" manual="true">
+      <element uuid="cec26f3a-5b0b-4a46-b752-00493f97f32c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>normal_pressure_to_wb_1</seg>
+      </bo>
+    </element>
+    <element uuid="df08232b-3e93-4638-85c6-702c129e5f0e" manual="true">
+      <element uuid="39d4cfe0-3259-4d89-81d3-648e5fa46fd8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>normal_pressure_to_wb_2</seg>
+      </bo>
+      <bendpoints>
+        <point x="2535.0" y="705.0"/>
+        <point x="2535.0" y="645.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="669111f9-ab6a-45ed-9386-aec1a50db9cc" manual="true">
+      <element uuid="35ca3843-6663-46de-a5b0-8c4f877238a8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>normal_pressure_to_wb_3</seg>
+      </bo>
+      <bendpoints>
+        <point x="2515.0" y="635.0"/>
+        <point x="2515.0" y="514.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="154c0c47-c3d3-499b-9cd9-43120d4ec150" manual="true">
+      <element uuid="c8cb1e48-35a0-42b4-b7a0-3aa8a00ad036" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>normal_pressure_to_wb_4</seg>
+      </bo>
+      <bendpoints>
+        <point x="2515.0" y="845.0"/>
+        <point x="2515.0" y="1036.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="6f2f75cd-d85a-4197-b35b-7ea911f107d1" manual="true">
+      <element uuid="b70e7d4d-3a93-4a22-93dd-b702a51a0ee7" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ped_position_l</seg>
+      </bo>
+      <bendpoints>
+        <point x="2048.0" y="230.0"/>
+        <point x="2048.0" y="302.66666666666663"/>
+      </bendpoints>
+    </element>
+    <element uuid="5ee08322-c06d-443d-8e15-6bd1ab0a5d6e" manual="true">
+      <element uuid="a237f48c-161a-4b29-a7b4-1d97ee96c66d" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ped_position_r</seg>
+      </bo>
+      <bendpoints>
+        <point x="2078.0" y="865.0"/>
+        <point x="2078.0" y="402.66666666666663"/>
+      </bendpoints>
+    </element>
+    <element uuid="c6fc6df7-7540-439e-b34f-1c7441897526" manual="true">
+      <element uuid="c2fe6839-0852-4a6b-82a4-e6747cdddebf" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>power_to_blue_pump</seg>
+      </bo>
+      <bendpoints>
+        <point x="695.0" y="584.0"/>
+        <point x="695.0" y="737.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="e064d596-a594-4e80-8e92-d97e08622725" manual="true">
+      <element uuid="51a99d9a-da50-4045-8434-446d83557887" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>power_to_green_pump</seg>
+      </bo>
+      <bendpoints>
+        <point x="254.0" y="180.0"/>
+        <point x="254.0" y="283.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="08e7ca7e-325e-48a8-849b-e0d19ff72057" manual="true">
+      <element uuid="236db06c-2b19-4f26-b592-9b4f2e663e8a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pressure_to_accumulator</seg>
+      </bo>
+    </element>
+    <element uuid="c969eb33-b153-480a-99b3-aa54ce11d435" manual="true">
+      <element uuid="d161a083-5884-480d-8f7d-f7487e9b1748" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>selector_blue_out</seg>
+      </bo>
+    </element>
+    <element uuid="21603c78-ab3e-46c3-9786-a6afd80fd9de" manual="true">
+      <element uuid="ad729563-29bd-459e-a7ba-c36117c914a2" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>selector_green_out</seg>
+      </bo>
+      <bendpoints>
+        <point x="2088.0" y="419.33333333333337"/>
+        <point x="2088.0" y="615.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="8c4256a0-50af-4b83-96e3-6ab07e61d708" manual="true">
+      <element uuid="fcef8c75-fd9f-4ecc-af5a-139a0b5873f5" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>shutoff_pressure_out</seg>
+      </bo>
+    </element>
+    <element uuid="a6bec14c-cc47-469b-ac0e-1979ef4fe25b" manual="true">
+      <element uuid="3f927a81-f3d2-4d3f-a668-1c09c8add772" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>shutoff_pressure_to_selector</seg>
+      </bo>
+      <bendpoints>
+        <point x="1623.0" y="542.0"/>
+        <point x="1623.0" y="436.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="f02e55c7-942d-4769-ae1c-d0b071bf1cdb" manual="true">
+      <element uuid="2c500bec-7d63-45a8-a4a1-039de1a1e8f6" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>system_valid_to_selector</seg>
+      </bo>
+    </element>
+    <element uuid="9b74aae2-66c6-4168-b10f-f3c6b00cd7b8" manual="true">
+      <element uuid="a2d38676-42fc-4e80-a007-aab7394dfe39" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>system_valid_to_shutoff</seg>
+      </bo>
+      <bendpoints>
+        <point x="1188.0" y="386.0"/>
+        <point x="1188.0" y="517.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="25894bcf-0362-4019-883e-80379c44d523" manual="true">
+      <element uuid="c12b2623-b1e1-409c-9801-6fc2f9abc05e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_1_status</seg>
+      </bo>
+    </element>
+    <element uuid="50333c80-5c87-4058-a943-7198267d536d" manual="true">
+      <element uuid="d0edafaf-009b-4d55-b570-58ca855f38be" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_2_status</seg>
+      </bo>
+    </element>
+    <element uuid="2e1effec-67fa-4ec9-9c73-be22da53fb5d" manual="true">
+      <element uuid="16531105-ee71-482c-beec-3d460ebee85b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_3_status</seg>
+      </bo>
+    </element>
+    <element uuid="6d13f146-d9e2-42c5-ad8e-622a8fc85a0e" manual="true">
+      <element uuid="87bd73cb-a440-4a02-be9f-81d3ed410037" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wheel_4_status</seg>
+      </bo>
+    </element>
+    <element uuid="5f7c4e80-5240-49ee-af06-f51696f7607e" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>accum_pressure_display</seg>
+      </bo>
+      <position y="1332.0"/>
+    </element>
+    <element uuid="9d1d89ae-3d2c-4360-9245-d72dd208179b" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>accum_pressure_display_in</seg>
+      </bo>
+      <position y="1272.0"/>
+    </element>
+    <element uuid="2ead490f-f0b2-4038-af38-f83b545fd483" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_1_3</seg>
+      </bo>
+      <position y="88.0"/>
+    </element>
+    <element uuid="e794ed73-3613-4b1a-8ac1-2b717d58d830" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>as_cmd_pair_2_4</seg>
+      </bo>
+      <position y="38.0"/>
+    </element>
+    <element uuid="69bfb084-6001-4ff6-b8fa-7b0d64053033" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_1</seg>
+      </bo>
+      <position y="642.0"/>
+    </element>
+    <element uuid="c143722d-3cf4-4fa1-8647-f19cb0f13fef" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_2</seg>
+      </bo>
+      <position y="592.0"/>
+    </element>
+    <element uuid="5b28dd26-745a-4387-963d-a7fae8c846af" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_3</seg>
+      </bo>
+      <position y="773.0"/>
+    </element>
+    <element uuid="3dde7210-40b7-4074-b4a7-4ffab53ff0db" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>brake_as_cmd_4</seg>
+      </bo>
+      <position y="422.0"/>
+    </element>
+    <element uuid="2511191f-077b-47d8-9716-f11fb8184dce" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>green_pressure_in_selec_valve</seg>
+      </bo>
+      <position x="3365.0" y="500.0"/>
+    </element>
+    <element uuid="f634c56a-072c-4990-8061-2af6822184aa" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ground_speed</seg>
+      </bo>
+      <position y="1072.0"/>
+    </element>
+    <element uuid="04bd0733-d799-412e-a25a-05e4e549fe7b" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply1</seg>
+      </bo>
+      <position y="1022.0"/>
+    </element>
+    <element uuid="e7981963-b12b-4bad-a4a3-682f59de04aa" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>hyd_supply2</seg>
+      </bo>
+      <position y="291.0"/>
+    </element>
+    <element uuid="97dab705-2cbd-4399-837f-bebba94cdaa9" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mech_pedal_pos_l</seg>
+      </bo>
+      <position y="188.0"/>
+    </element>
+    <element uuid="26c73966-88e7-433d-98d5-006f55b175a0" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>mech_pedal_pos_r</seg>
+      </bo>
+      <position y="823.0"/>
+    </element>
+    <element uuid="18a85fac-b726-4570-b7a8-e379fe4ef036" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power1</seg>
+      </bo>
+      <position y="542.0"/>
+    </element>
+    <element uuid="91ae5af9-bcda-4b21-b06a-63f38bd17e66" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>pump_power2</seg>
+      </bo>
+      <position y="138.0"/>
+    </element>
+    <element uuid="d3be715b-bab4-4ac2-9dd4-9abc638263d6" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>system_validity</seg>
+      </bo>
+      <position y="344.0"/>
+    </element>
+    <element uuid="fa7cf5d9-e291-46eb-b980-273d480ed7f3" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force1</seg>
+      </bo>
+      <position x="3432.0" y="708.0"/>
+    </element>
+    <element uuid="08fe867b-4409-4e00-97ca-af5d3adb36b9" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force2</seg>
+      </bo>
+      <position x="3432.0" y="578.0"/>
+    </element>
+    <element uuid="8eeaad1e-a657-4123-818c-ae7c4ad2bec4" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force3</seg>
+      </bo>
+      <position x="3432.0" y="447.0"/>
+    </element>
+    <element uuid="8408cdc9-2d5b-443a-8b8b-24779ec87654" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_braking_force4</seg>
+      </bo>
+      <position x="3432.0" y="969.0"/>
+    </element>
+    <element uuid="ac29932a-28e9-4f5f-b204-a7857935b5d6" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status1</seg>
+      </bo>
+      <position x="3488.0" y="1177.0"/>
+    </element>
+    <element uuid="e589d706-2bb1-4a86-bc29-ac7f54636ef9" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status2</seg>
+      </bo>
+      <position x="3488.0" y="916.0"/>
+    </element>
+    <element uuid="4cafa65f-3382-4c0a-ae3c-4b0c40c7462e" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status3</seg>
+      </bo>
+      <position x="3488.0" y="786.0"/>
+    </element>
+    <element uuid="e7a0f6be-41a4-4e42-902c-fed5fb385c00" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status4</seg>
+      </bo>
+      <position x="3488.0" y="1047.0"/>
+    </element>
+    <element uuid="3b133784-4381-4622-b901-fb7d6211ec62" manual="true">
+      <element uuid="0a176f12-b42c-4cf7-b417-59e628e7cb9c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>circuit_pressure_value</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="43902317-c94d-4467-beae-3d0056acebbc" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pressure_display</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="167c2c6f-4924-4daf-be47-9d3fcaaebd5d" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>reserve_out</seg>
+        </bo>
+        <position x="381.0" y="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>accumulator</seg>
+      </bo>
+      <position x="615.0" y="256.0"/>
+      <size width="473.0" height="110.0"/>
+    </element>
+    <element uuid="77ac1db0-c446-4e85-b534-cf5e79478636" manual="true">
+      <element uuid="72694890-df3c-43f2-8290-f6594b60d4ea" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>in_1</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="6a722f38-4fa8-4277-a794-3806f94d6903" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>in_2</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="9085cd1f-e03f-42b1-b612-3b673a221317" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>out_pressure</seg>
+        </bo>
+        <position x="316.0" y="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>add_gate_hyd_pressure</seg>
+      </bo>
+      <position x="1108.0" y="231.0"/>
+      <size width="415.0" height="110.0"/>
+    </element>
+    <element uuid="d8df570e-93d6-40aa-be92-f186641e4fdb" manual="true">
+      <element uuid="98733c77-8998-472f-ab3f-db86212b2e23" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_1_3</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="6e45ff32-a802-412e-95ba-669b0de20a4f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>as_cmd_pair_2_4</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="173410e5-302f-482b-b949-4c10be186348" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>false_to_mv</seg>
+        </bo>
+        <position y="260.0"/>
+      </element>
+      <element uuid="4fc8581d-1368-41c7-9ff9-81c372701e90" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_in</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="350abb1b-651f-4b68-9e32-39eddd2f89cf" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out1</seg>
+        </bo>
+        <position x="248.0" y="77.0"/>
+      </element>
+      <element uuid="a9a6c772-2815-4014-8f1e-d14aeb0544f2" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out2</seg>
+        </bo>
+        <position x="248.0" y="193.0"/>
+      </element>
+      <element uuid="bc79d957-58f5-4eea-8b4f-9b81fc5c4e55" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mech_pedal_pos_l</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="b03d3f7e-82f9-467f-b143-697f52bf48cf" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>mech_pedal_pos_r</seg>
+        </bo>
+        <position y="210.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>alt_sys</seg>
+      </bo>
+      <position x="2014.0" y="151.0"/>
+      <size width="386.0" height="310.0"/>
+    </element>
+    <element uuid="28b2edbc-02c5-4495-9174-694af663ccf4" manual="true">
+      <element uuid="aad2b52a-a08b-434e-bfcb-70fa32a47bda" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out</seg>
+        </bo>
+        <position x="291.0" y="35.0"/>
+      </element>
+      <element uuid="8b5982fe-e8e8-4926-aa8c-6056198f46cc" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_supply</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="4688ffad-b931-4791-8896-d884a07ffe34" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>blue_hyd_pump</seg>
+      </bo>
+      <position x="174.0" y="231.0"/>
+      <size width="421.0" height="110.0"/>
+    </element>
+    <element uuid="97e44f79-e8f7-4e30-8175-27b332043b07" manual="true">
+      <element uuid="46f3d691-fef8-4633-8500-48b87d69229a" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out</seg>
+        </bo>
+        <position x="300.0" y="35.0"/>
+      </element>
+      <element uuid="66c4e177-30a9-41ea-8d82-01c1020efbee" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_supply</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="461a15f2-1658-4a0d-84ac-df7957ab2e80" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>power</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>green_hyd_pump</seg>
+      </bo>
+      <position x="629.0" y="685.0"/>
+      <size width="430.0" height="110.0"/>
+    </element>
+    <element uuid="1a007553-d0c0-4289-ad92-82ae4ca163de" manual="true">
+      <element uuid="0c44d327-f192-4440-a5cc-3aa060366e81" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd1</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="dbb9270a-a7e9-4348-8676-400e93af5140" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd2</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="cf29f9b4-f87f-48b3-8588-ecba0ec519de" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd3</seg>
+        </bo>
+        <position y="210.0"/>
+      </element>
+      <element uuid="d229c0ee-2989-4b5d-849c-411ab5c5aabe" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_as_cmd4</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="5538d1db-7de6-40d0-8142-d65ef1d9a660" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>false_to_mv</seg>
+        </bo>
+        <position y="260.0"/>
+      </element>
+      <element uuid="8492b39d-272b-41f2-b065-ad526e54d5b8" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="dca0f1e9-b8b3-478c-a689-f933aa48a2a2" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out1</seg>
+        </bo>
+        <position x="269.0" y="170.0"/>
+      </element>
+      <element uuid="39349f33-fcc5-4b64-bd6b-a424ee383911" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out2</seg>
+        </bo>
+        <position x="269.0" y="100.0"/>
+      </element>
+      <element uuid="d612cb72-cb56-43e3-bb3c-fc0573be6794" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out3</seg>
+        </bo>
+        <position x="269.0" y="30.0"/>
+      </element>
+      <element uuid="f3b9f650-527f-41e7-b0c4-52f5bebb6a0c" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out4</seg>
+        </bo>
+        <position x="269.0" y="240.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>normal_sys</seg>
+      </bo>
+      <position x="2008.0" y="563.0"/>
+      <size width="407.0" height="310.0"/>
+    </element>
+    <element uuid="1a7d08f1-7f93-4183-9302-f6b0cbed226f" manual="true">
+      <element uuid="4da24f31-cc01-4f62-981e-6353632f8701" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>blue_select_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="1d113aa7-bbc9-4338-90e5-cbbb1399bae3" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>blue_select_out</seg>
+        </bo>
+        <position x="288.0" y="27.0"/>
+      </element>
+      <element uuid="a89218b4-61d5-4e51-b6d9-89f5e3f7b948" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>green_select_in</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="a76c2a45-89fa-47c5-9e4c-0b6ffd09c73d" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>green_select_out</seg>
+        </bo>
+        <position x="278.0" y="93.0"/>
+      </element>
+      <element uuid="475e1fc1-7689-43d7-8971-9bd791e64477" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_validity</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>selector_valve</seg>
+      </bo>
+      <position x="1543.0" y="284.0"/>
+      <size width="405.0" height="160.0"/>
+    </element>
+    <element uuid="4dba0f58-891f-4686-b29f-e4d4ece79968" manual="true">
+      <element uuid="7d616f6d-54c3-4347-8bfd-740a36d1c115" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_in</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="f6e04bdb-a76f-4687-a7c9-0853e178b445" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hyd_pressure_out</seg>
+        </bo>
+        <position x="273.0" y="35.0"/>
+      </element>
+      <element uuid="f4aa9787-344f-4dbe-8afd-f834a3ef917b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>system_validity</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>shutoff_valve</seg>
+      </bo>
+      <position x="1112.0" y="465.0"/>
+      <size width="403.0" height="110.0"/>
+    </element>
+    <element uuid="aeb17cc0-2a2b-48f0-b9db-2537c979be77" manual="true">
+      <element uuid="bac545b8-91d6-49bb-b47c-b3e158dc37ed" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="f7d3e94f-6fdb-4127-a6ae-f4b83ebe85cf" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ground_speed</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="aa148b8d-a9de-45bd-9436-8c04dd5d51c2" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position x="229.0" y="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_1</seg>
+      </bo>
+      <position x="3024.0" y="1142.0"/>
+      <size width="329.0" height="110.0"/>
+    </element>
+    <element uuid="318f5e6f-b222-4377-a264-1ef4d2a8cfde" manual="true">
+      <element uuid="a21774a8-37e6-4b1b-96ed-6f322c7475d9" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="276d6aa8-33d3-40c6-a93c-db457f28470b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ground_speed</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="7dc29d14-cd75-49b6-a2f7-b5df04e24cf9" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position x="229.0" y="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_2</seg>
+      </bo>
+      <position x="3024.0" y="881.0"/>
+      <size width="329.0" height="110.0"/>
+    </element>
+    <element uuid="0cf0d18a-3365-4b3d-879c-804e22b59ffa" manual="true">
+      <element uuid="9b2bbca6-5416-4380-ba38-f418063523d7" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="36d19e3c-31aa-4a83-9c1b-712cdeeabdad" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ground_speed</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="6b045403-82b1-441c-bb08-a765c08559fc" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position x="229.0" y="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_3</seg>
+      </bo>
+      <position x="3024.0" y="751.0"/>
+      <size width="329.0" height="110.0"/>
+    </element>
+    <element uuid="383781ec-9bee-4ff2-a6b3-dddb9994cf28" manual="true">
+      <element uuid="ac3856e3-f296-45b9-b387-ad3c41e793b7" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="d86b2ec2-ef2b-4603-9ba3-336e8cd7cf91" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ground_speed</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="1320e12c-2db6-4a99-9eb0-8d9cf798b8b8" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wheel_status</seg>
+        </bo>
+        <position x="229.0" y="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_4</seg>
+      </bo>
+      <position x="3024.0" y="1012.0"/>
+      <size width="329.0" height="110.0"/>
+    </element>
+    <element uuid="986899b1-1533-40a3-8799-c2364ae441b1" manual="true">
+      <element uuid="59383ffe-0b6c-4af6-848d-a5f7621c4d3c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alt_hyd_pressure_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="cfd86215-cb7d-43f4-b3dc-9ce2b561f495" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position x="416.0" y="35.0"/>
+      </element>
+      <element uuid="8b55acf7-a8a4-446c-8f9d-502ca9baba9a" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>normal_hyd_pressure_in</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_brake1</seg>
+      </bo>
+      <position x="2465.0" y="673.0"/>
+      <size width="509.0" height="110.0"/>
+    </element>
+    <element uuid="331e7536-5ec7-417c-b792-c272a4f2f338" manual="true">
+      <element uuid="22a4efc8-20ee-4251-b6ec-a381f50efbb2" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alt_hyd_pressure_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="45aff17b-d5eb-455f-90d7-d05816b386e7" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position x="416.0" y="35.0"/>
+      </element>
+      <element uuid="d4fc7edc-87f8-4f25-80bd-6920b56256c2" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>normal_hyd_pressure_in</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_brake2</seg>
+      </bo>
+      <position x="2465.0" y="543.0"/>
+      <size width="509.0" height="110.0"/>
+    </element>
+    <element uuid="230eaacd-f4a6-4468-87f3-9b8f0302da59" manual="true">
+      <element uuid="8fb9ae23-a63b-41bc-b5bc-3c949171bb0e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alt_hyd_pressure_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="02608743-5935-426e-8033-42a2a6042aa2" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position x="416.0" y="35.0"/>
+      </element>
+      <element uuid="319afb06-f8f6-48e2-8e81-16d4b8a92901" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>normal_hyd_pressure_in</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_brake3</seg>
+      </bo>
+      <position x="2465.0" y="412.0"/>
+      <size width="509.0" height="110.0"/>
+    </element>
+    <element uuid="83b13a5e-21f5-43fe-bd3b-8554135db5c2" manual="true">
+      <element uuid="d956d62f-b04b-41a6-9630-a99e4fc59126" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alt_hyd_pressure_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="961e110b-0b02-4432-80db-6f4d815ba507" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>brake_force</seg>
+        </bo>
+        <position x="416.0" y="35.0"/>
+      </element>
+      <element uuid="05026d4b-36ec-44f4-9f94-ae0742fc2432" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>normal_hyd_pressure_in</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wheel_brake4</seg>
+      </bo>
+      <position x="2465.0" y="934.0"/>
+      <size width="509.0" height="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>physicalsystem.inst</seg>
+    </bo>
+    <position x="90.0" y="10.0"/>
+    <size width="3595.0" height="1384.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>physicalsystem::physicalsystem.inst</seg>
+    </context>
+  </config>
+</diagram:Diagram>

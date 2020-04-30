@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="5a6bf9e0-326d-419c-a2e8-509d788deb16" manual="true">
+    <element uuid="2f3be1bf-397b-4d88-815e-d30d92fafecf" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>(sensor) wheel_rolling is true if and only if wheel_status = 'rolling' </seg>
+        <seg>0</seg>
+      </bo>
+      <position x="112.0" y="38.0"/>
+      <size width="533.0" height="52.0"/>
+    </element>
+    <element uuid="20f1f28f-1595-42f7-b6c3-c0a0f8fc0514" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_rolling</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <element uuid="d780d154-aec5-4011-bbf7-8873ed437de2" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wheel_status</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>sensor</seg>
+    </bo>
+    <position x="110.0" y="120.0"/>
+    <size width="762.0" height="110.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>sensor::sensor</seg>
+    </context>
+  </config>
+</diagram:Diagram>

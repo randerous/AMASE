@@ -2,38 +2,52 @@ package Oberst
 public
 with Base_Types;
 with Hauptmann;
+with sub2;
 	
 	system Oberst
 		features 
-			in_1 : in data port Base_Types::Boolean;
-			out_1: out data port Base_Types::Boolean;
+			in1 : in data port Base_Types::Boolean;
+			out1: out data port Base_Types::Boolean;
+			out2: out data port Base_Types::Boolean;
 			
 		annex agree {**
-			assume "true" : true;
+			assume "in_1 = true" : in1 = true;
+			
+			eq e1: bool = in1 = true;
+		    eq e2: bool = out1 = true;
+		    --eq e3: bool = time > 0.0;
+			
+			guarantee "a" :
+			   whenever e1 occurs e2 occurs during [0.0, 100.0];
+			
+			guarantee "Input equals output (top level)" :
+				out2 = in1 and out1 = in1;
 		**};
+		
 	end Oberst;
 	
 	system implementation Oberst.top
 		subcomponents
-			sub : system Hauptmann::Hauptmann;
-			
+			sub : system Hauptmann::Hauptmann.inst;
+			sub2 : system sub2::sub2; 
 		connections
-			inputs : port in_1 -> sub.in_1;
-			outputs : port sub.out_1 -> out_1;
+			inputs : port in1 -> sub2.i;
+			in2: port sub2.o -> sub.in_1;
+			outputs : port sub.out_1 -> out1;
+			outputs2: port sub.out_2 -> out2;
+		
+		annex safety {**
 			
-		annex agree {**
-			lemma "Top level input equals sub level input." :
-				in_1 = sub.in_1;
-				
-			lemma "Top level output equals sub level output." :
-				out_1 = sub.out_1;
-				
-			lemma "Input equals output (top level)" :
-				in_1 = out_1;
-				
-			lemma "Sub level input equals sub level output." :
-				sub.out_1 = sub.in_1;
-		**};
+			analyze: max 2 fault
+		**};		
 			
 	end Oberst.top;
 end Oberst;
+
+
+--eq e1: bool = in1 = true;
+		   -- eq e2: bool = out1 = true;
+		    --eq e3: bool = time > 0.0;
+			
+			--assume "a" :
+			 -- whenever e1 occurs e2 occurs during [0.0, 1000.0];

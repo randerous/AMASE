@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="6668530b-7b54-4001-8f77-00d9ec06ed69" manual="true">
+    <element uuid="ffba6599-bf66-40b4-b548-675f17c6295e" manual="true">
+      <bo>
+        <seg>agree.guarantee</seg>
+        <seg>input equals output (top level)</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="56.0" y="190.0"/>
+      <size width="260.0" height="52.0"/>
+    </element>
+    <element uuid="3a109967-f1c9-424c-8c73-c1de7213f817" manual="true">
+      <element uuid="1267f5cc-9b7d-40e2-aa65-8be914815480" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>in_1</seg>
+        </bo>
+        <position y="69.0"/>
+      </element>
+      <element uuid="83a06689-9a5c-499e-976d-fe0212a95c95" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>out_1</seg>
+        </bo>
+        <position y="14.0"/>
+      </element>
+      <element uuid="097f8eb9-001f-43e4-a70d-ee5f4b601621" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>sub</seg>
+      </bo>
+      <position x="218.0" y="38.0"/>
+      <size width="383.0" height="123.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>oberst.top</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="769.0" height="359.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>oberst::oberst.top</seg>
+    </context>
+  </config>
+</diagram:Diagram>
